@@ -106,23 +106,25 @@ of electron **Power Flow** every (24) hours.
 
 ======================
 
-**Electrical Component**	|	**Rated Power Draw (W)**	|	**Hours On (hr)**	|	**Usage per day (kWh)**
+**Electrical Component**	|	**Rated Power Draw (W)**	|	**Hours On (hr)**	|	**Usage per day (Watt-hours)**
 -------------------------	|	------------------------	|	-----------------	|	-----------------------
-400w HID Flowering Bulb		|		400 (W)					|		12				|		4800 kWh
+400w HID Flowering Bulb		|		400 (W)					|		12				|		4800 Watt-hours
 							|								|						|	
-24w CO2 Period Input Fan	|		24 (W)					|		12				|		288 kWh
+24w CO2 Period Input Fan	|		24 (W)					|		12				|		288 Watt-hours
+							|								|						|	
+125w CFL Vegetation Bulb	|		125 (W)					|		18				|		2250 Watt-hours
 -------------------------	|	------------------------	|	-----------------	|	-----------------------
-125w CFL Vegetation Bulb	|		125 (W)					|		18				|		2250 kWh
+18w Air Pump				|		18 (W)					|		24				|		432 Watt-hours
 -------------------------	|	------------------------	|	-----------------	|	-----------------------
-18w Air Pump				|		18 (W)					|		24				|		432 kWh
+24w Exhaust Fan				|		24 (W)					|		24				|		576 Watt-hours
 -------------------------	|	------------------------	|	-----------------	|	-----------------------
-24w Exhaust Fan				|		24 (W)					|		24				|		576 kWh
+24w Bulb Circulation Fan(s) x 2	|	48 (W)					|		12				|		576 Watt-hours
 -------------------------	|	------------------------	|	-----------------	|	-----------------------
-24w Bulb Circulation Fan(s) x 2	|	48 (W)					|		12				|		576 kWh
+4w Water Pump				|		4 (W)					|		2/10th			|		0.80 Watt-hours
 -------------------------	|	------------------------	|	-----------------	|	-----------------------
-4w Water Pump				|		4 (W)					|		2/10th			|		0.80 kWh
--------------------------	|	------------------------	|	-----------------	|	-----------------------
-**Total Usage Per Day (kWh)**																			8923 kWh
+
+**Total Usage Per Day (Watt-hours)**														8923 Watt-hours
+**Total Usage Per Day (kWh)**																8.923 kilo Watt hours (kWh)
 
 ======================
 
@@ -134,9 +136,9 @@ Twelve (12) hours of **Alternating Current (AC)** electron flow for the **Flower
 
 Plus, all of the other incidental fans, pumps, digital timers, internal ambient air sensors, and digital internal atmospheric controls ...
 
-Then, your "Grow" will consume approx. ( 365 x 8923 ) kilo **Watt** hours (kWh) of **Alternating Current (AC)** electron **Power Flow** annually.
+Then, your "Grow" will consume approx. ( 365 x 8.923 ) kilo **Watt** hours (kWh) of **Alternating Current (AC)** electron **Power Flow** annually.
 
-Or, ( 3,256,895 ) **kilo Watt hours (kWh)** when operating the **Dual Chamber BC Northern Lights Bloom Machine Grow Box** "full blast" ...
+Or, ( 3,256,895 ) **Watt-hours** when operating the **Dual Chamber BC Northern Lights Bloom Machine Grow Box** "full blast" ...
 
 Over the course of the entire year.
 
@@ -153,6 +155,44 @@ This corresponds to a ( 2.10 - 3.00 ) kilo **Watt** (kW) rated system ( array ) 
 ======================
 
 350 **Watt** (W) rated Solar panels ( 17% Efficiency Rating )
+
+6.29 Exposure Factor x 2.10 kW System = 13.209 (kWh) per day;
+
+350w Solar Panel ( 0.35 kWh ) x 6.29 Exposure Factor = 2.2015 kWh per day
+
+13.209 / 2.2015 = Six (6) 350w Solar Panels
+
+======================
+
+So, to break this down into simple math that you can do:
+
+AC rating = (kWh) per day / Exposure Factor
+
+AC rating = 8.923 / 6.29 = 1.42 (kW)
+
+DC rating = AC rating / Inversion Factor (.78)
+
+DC rating = 1.42 (kW) / .78 = 1.82 (kW)
+
+Number of panels = DC rating (kW) x 1000 / Panel Rating (w)
+
+Number of panels = 1.82 (kW) x 1000  / 350w
+
+Number of panels = 1820w / 350w
+
+Number of panels = 5.20, or a 3 x 2 Solar panel System ( array )
+
+So, for example ... a 2.10 (kW) System of Solar panels ( array ) = 2100 Watts ...
+
+And, a 350 watt panel = .350 (kW)
+
+Therefore, 2.10 (kW) x 1000 / 350 watt Solar panel =
+
+2100 / 350 = 6 Solar Panels are required to generate
+
+Check: (6) Solar Panels x 350w = 2100 Watts = 2.1 (kW) rated system of Solar panels ( array )
+
+======================
 
 **Issue**. How many 350 **Watt** (W) rated Solar panels ( 17% Efficiency Rating ) ...
 
@@ -174,7 +214,7 @@ To configure the 8 x 4 array of Solar Panels shown in the example photo requires
 
 Plus, the cost of the Micro-Inverters (MI), the Dual Axis Tracking mechanism, the mount, and the pedastal.
 
-To build the required 2.10 - 3.00 kW rated Solar panel system ( array ) given the annual expected draw of ( 3,256,895 ) **kilo Watt hours (kWh)** ...
+To build the required 2.10 - 3.00 kW rated Solar panel system ( array ) given the annual expected draw of ( 3,256,895 ) **Watt-hours** ...
 
 Requires the purchase of ( 2.10 x 2000 ) or, the size of the required system multiplied by the expected Direct Current (DC) expressed in kilo Watts (kW) ) / divided by the rating in **Watts** (W) of the solar panel, or 350.
 
