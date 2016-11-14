@@ -290,7 +290,7 @@ Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Ar
 
 >Finally, to enable the fetching and rendering of your subect image, place an exclamation point '!' at the beginning of your image statement.
 
->!\[Example Photo](images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
+>!\[8 x 4 Solar Panel Array With Dual Axis Tracking](images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
 
 ##======================
 
