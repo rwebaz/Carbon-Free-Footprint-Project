@@ -1,6 +1,6 @@
-====================== 
-##Canna | Zero Carbon Footprint | Notes
-======================
+##=====================
+##Carbon Free Footprint
+##=====================
 
 ###Electric Watt
 
@@ -104,29 +104,29 @@ That you can expect to generate in one (1) year's time using a 1 kilo **Watt** (
 
 of electron **Power Flow** every (24) hours.
 
-======================
-
+##====================================================================================================================
 **Electrical Component**	|	**Rated Power Draw (W)**	|	**Hours On (hr)**	|	**Usage per day (Watt-hours)**
--------------------------	|	------------------------	|	-----------------	|	-----------------------
+------------------------ 	| 	------------------------	|	-----------------	|	------------------------------
 400w HID Flowering Bulb		|		400 (W)					|		12				|		4800 Watt-hours
 							|								|						|	
 24w CO2 Period Input Fan	|		24 (W)					|		12				|		288 Watt-hours
 							|								|						|	
 125w CFL Vegetation Bulb	|		125 (W)					|		18				|		2250 Watt-hours
--------------------------	|	------------------------	|	-----------------	|	-----------------------
+							| 								|						|	
 18w Air Pump				|		18 (W)					|		24				|		432 Watt-hours
--------------------------	|	------------------------	|	-----------------	|	-----------------------
+							| 								|						|	
 24w Exhaust Fan				|		24 (W)					|		24				|		576 Watt-hours
--------------------------	|	------------------------	|	-----------------	|	-----------------------
+							|								|						|	
 24w Bulb Circulation Fan(s) x 2	|	48 (W)					|		12				|		576 Watt-hours
--------------------------	|	------------------------	|	-----------------	|	-----------------------
+							|								|						|	
 4w Water Pump				|		4 (W)					|		2/10th			|		0.80 Watt-hours
--------------------------	|	------------------------	|	-----------------	|	-----------------------
-
+																		
 **Total Usage Per Day (Watt-hours)**														8923 Watt-hours
 **Total Usage Per Day (kWh)**																8.923 kilo Watt hours (kWh)
-
-======================
+																
+**Cost Per kilo Watt hour** 																12 cents
+**Daily Cost** 																				$1.07
+##=====================================================================================================================
 
 **Analysis**. If you run your **Dual Chamber BC Northern Light Bloom Machine Grow Box** continuously on schedule every day of the year ...
 
@@ -152,118 +152,160 @@ Requires a ( 3257 / 1560 ) kilo **Watt** (kW) rated system of Solar panels.
 
 This corresponds to a ( 2.10 - 3.00 ) kilo **Watt** (kW) rated system ( array ) of Solar panels.
 
-======================
+##======================
 
-350 **Watt** (W) rated Solar panels ( 17% Efficiency Rating )
+###Do The Math
 
-6.29 Exposure Factor x 2.10 kW System = 13.209 (kWh) per day;
+>350 **Watt** (W) rated Solar panels ( 17% Efficiency Rating )
 
-350w Solar Panel ( 0.35 kWh ) x 6.29 Exposure Factor = 2.2015 kWh per day
+>6.29 Exposure Factor x 2.10 kW System = 13.209 (kWh) per day;
 
-13.209 / 2.2015 = Six (6) 350w Solar Panels
+>350w Solar Panel ( 0.35 kWh ) x 6.29 Exposure Factor = 2.2015 kWh per day
 
-======================
+>13.209 / 2.2015 = Six (6) 350w Solar Panels
 
-So, to break this down into simple math that you can do:
+##======================
 
-AC rating = (kWh) per day / Exposure Factor
+###Break It Down
 
-AC rating = 8.923 / 6.29 = 1.42 (kW)
+>So, to break this down into simple math that you can do:
 
-DC rating = AC rating / Inversion Factor (.78)
+>AC rating = (kWh) per day / Exposure Factor
 
-DC rating = 1.42 (kW) / .78 = 1.82 (kW)
+>AC rating = 8.923 / 6.29 = 1.42 (kW)
 
-Number of panels = DC rating (kW) x 1000 / Panel Rating (w)
+>DC rating = AC rating / Inversion Factor (.78)
 
-Number of panels = 1.82 (kW) x 1000  / 350w
+>DC rating = 1.42 (kW) / .78 = 1.82 (kW)
 
-Number of panels = 1820w / 350w
+>Number of panels = DC rating (kW) x 1000 / Panel Rating (w)
 
-Number of panels = 5.20, or a 3 x 2 Solar panel System ( array )
+>Number of panels = 1.82 (kW) x 1000  / 350w
 
-So, for example ... a 2.10 (kW) System of Solar panels ( array ) = 2100 Watts ...
+>Number of panels = 1820w / 350w
 
-And, a 350 watt panel = .350 (kW)
+>Number of panels = 5.20, or a 3 x 2 Solar panel System ( array )
 
-Therefore, 2.10 (kW) x 1000 / 350 watt Solar panel =
+>So, for example ... a 2.10 (kW) System of Solar panels ( array ) = 2100 Watts ...
 
-2100 / 350 = 6 Solar Panels are required to generate
+>And, a 350 watt panel = .350 (kW)
 
-Check: (6) Solar Panels x 350w = 2100 Watts = 2.1 (kW) rated system of Solar panels ( array )
+**Conclusion**. Therefore, 2.10 (kW) x 1000 / 350 watt Solar panel =
 
-======================
+>2100 / 350 = 6 Solar Panels are required to generate ( Complete with individual accompanying Micro-Inverters (MI) ... )
 
-**Issue**. How many 350 **Watt** (W) rated Solar panels ( 17% Efficiency Rating ) ...
+**Given**. The Sunmodule 350w XL Mono Solar Panel maufactured by Solar World carries an above benchmark 17.54% Efficiency Rating ...
 
-Complete with individual accompanying Micro-Inverters (MI) ...
+>at a price well below $1 per rated production Watt.
 
-Are needed to to establish a system ( array ) output equal to a ( 2.10 - 3.00 ) kilo **Watt** (kW) rated system?
+>Check: (6) Solar Panels x 350w = 2100 Watts = 2.1 (kW) rated system of Solar panels ( array )
 
-**Rule**. The Sunmodule 350w XL Mono Solar Panel maufactured by Solar World carries an above benchmark 17.54% Efficiency Rating at a price below $1 per rated production Watt.
+##======================
 
-**Analysis**. Each Sunmodule 350w XL Mono Solar Panel retails for approx. $275 USD ( less than $1 per rated production **Watt** )
+###Weight of Solar Panels
 
-Each Sunmodule 350w XL Mono Solar Panel weighs in at 47.6 pounds.
+**Issue**. How many pounds will six (6) 350 **Watt** (W) rated Solar panels ( 17% Efficiency Rating ) weigh?
 
-Therefore, a 3 x 4 twelve (12) panel array will weigh in at approx. 571 pounds.
+**Given**. Six (6) Solar panels Are needed to to establish a system ( array ) output equal to a ( 2.10 - 3.00 ) kilo **Watt** (kW) rated system?
 
-To configure the 8 x 4 array of Solar Panels shown in the example photo requires (32) panels at a cost of $275 each, or $8,800 USD.
+**Analysis**. Each Sunmodule 350w XL Mono Solar Panel weighs in at 47.6 pounds.
+
+**Concluion**. Therefore, a 2 x 3 six (6) Solar panel array will weigh in at approx. 285 pounds.
+
+##======================
+
+###Cost of Solar Panels
+
+**Issue**. What is the cost per Array?
+
+**Rules**. Each Sunmodule 350w XL Mono Solar Panel retails for approx. $275 USD ( less than $1 per rated production **Watt** )
+
+**Analysis**. To configure the 4 x 8 array of Solar Panels shown in the example photo requires (32) panels at a cost of $275 each, or $8,800 USD.
 
 ![Example Photo](/images/Canna-Solar-32-Panel-Array-8-x-4-w-Dual-Axis-Tracking-Label-640-x-480-px.png)
 
 Plus, the cost of the Micro-Inverters (MI), the Dual Axis Tracking mechanism, the mount, and the pedastal.
 
+##======================
+
+###Solve The Problem
+
 To build the required 2.10 - 3.00 kW rated Solar panel system ( array ) given the annual expected draw of ( 3,256,895 ) **Watt-hours** ...
 
-Requires the purchase of ( 2.10 x 2000 ) or, the size of the required system multiplied by the expected Direct Current (DC) expressed in kilo Watts (kW) ) / divided by the rating in **Watts** (W) of the solar panel, or 350.
+Requires the purchase of ( 2.10 x 2000 ) or, the size of the required system multiplied by the expected **Direct Current (DC)** expressed in ...
 
-Or, 4200 / 350 = 12 Solar panels rated at 350w with a 17% efficency rating are required ...
+kilo Watts (kW) ) / divided by the rating in **Watts** (W) of the solar panel, or 350.
+
+4200 / 350 = 12 Solar panels rated at 350w with a 17% efficency rating are required ...
 
 To configure the 3 x 4 array of Solar Panels shown in this (12) panel example at a cost of $275 each, or $3,300 USD.
 
 Each 350w Solar panel is rated to produce a 350 kilo Watt (kW) stream of **Direct Current (DC)** **Power Flow** at the high point of the day.
 
-Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Array ) is expected to produce 2000 (kW) of **Direct Current (DC)** **Power Flow** anually.
+Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Array ) is expected to produce ...
 
-======================
+2000 (kW) of **Direct Current (DC)** **Power Flow** anually.
 
-###Quoting Text
+##======================
 
-When quoting text using GitHub Flavored Markdown (.md), simply place a "greater than" symbol in front of your 2nd line of text:
+###Quoting Text in Blocks ( Blockquote )
 
->Git Hub Flavored Markdown
+>When quoting text in blocks ( Blockquote ) using GitHub Flavored Markdown (.md) ...
 
-As you can see, the usage of the "greater than" symbol in this case yields an indented 2nd line of text with No "roll over" effect.
+>Simply place a "greater than" symbol in front of your 2nd line of text, as follows:
 
-======================
+**Git Hub Flavored Markdown**
+
+>As you can see, the usage of the "greater than" symbol in this case yields an indented 2nd line of text with a corresponding "thick pipe".
+
+##======================
 
 ###Enabling Hyperlinks
 
-When enabling hyperlinks using GitHub Flavored Markdown (.md) ...
+>When enabling hyperlinks using GitHub Flavored Markdown (.md) ...
 
-Simply place a "bracket" symbol in front of ( and, at the end of ) the label part of your hyperlink.
+>Simply place a "bracket" symbol in front of ( and, at the end of ) the label part of your hyperlink.
 
-Then, encircle the URL with "parenthesis", as follows:
+>Then, encircle the URL with "parenthesis", as follows:
 
-Copyright ©2016 [The Medical Marijuana Initiative of North America - International Limited](https://cannabuds.us/). All rights reserved.
+>Copyright ©2016 [The Medical Marijuana Initiative of North America - International Limited](https://cannabuds.us/). All rights reserved.
 
-This Webpage is being hosted via [GitHub Pages](https://pages.github.com/).
+>This Webpage is being hosted via [GitHub Pages](https://pages.github.com/).
 
-======================
+##======================
+
+###Stand Alone URLs
+
+>When enabling **Stand Alone URLs** using GitHub Flavored Markdown (.md) ...
+
+>Simply type the URL as a Stand Alone URL, as follows:
+
+>C=> https://medmj.us/SolarPowerYes
+
+>The Git Hub Markdown interpreter will automatically recognize a properly typed URL.
+
+##======================
 
 ###Emphasizing Text
 
-When **emphasizing** text using GitHub Flavored Markdown (.md) ...
+>When **emphasizing** text using GitHub Flavored Markdown (.md) ...
 
-Simply place two (**) asterisk symbols in front of, and in back of the text you wish to **emphasize**.
+>Simply place two (**) asterisk symbols in front of, and in back of the text you wish to **emphasize**.
 
-======================
+##======================
 
 ###Creating Headers
 
-When creating headers using GitHub Flavored Markdown (.md) ...
+>When creating headers using GitHub Flavored Markdown (.md) ...
 
-Simply place one (#), two (##), or three (###) sharp symbols in front of the text you wish to emphasize.
+>Simply place one (#), two (##), or three (###) sharp symbols in front of the text you wish to emphasize.
 
-======================
+##======================
+
+###Page Footer
+
+>Copyright ©2016 [The Medical Marijuana Initiative of North America - International Limited](https://cannabuds.us/). All rights reserved.
+
+>This Webpage is being hosted via [GitHub Pages](https://pages.github.com/).
+
+##======================
