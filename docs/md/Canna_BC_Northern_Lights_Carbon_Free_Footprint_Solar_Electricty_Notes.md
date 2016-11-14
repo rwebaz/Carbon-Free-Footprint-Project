@@ -224,7 +224,7 @@ This corresponds to a ( 2.10 - 3.00 ) kilo **Watt** (kW) rated system ( array ) 
 
 **Analysis**. To configure the 4 x 8 array of Solar Panels shown in the example photo requires (32) panels at a cost of $275 each, or $8,800 USD.
 
-![Example Photo](/images/Canna-Solar-32-Panel-Array-8-x-4-w-Dual-Axis-Tracking-Label-640-x-480-px.png)
+![Example Photo](../blob/master/images/Canna-Solar-32-Panel-Array-8-x-4-w-Dual-Axis-Tracking-Label-640-x-480-px.png?raw=true)
 
 Plus, the cost of the Micro-Inverters (MI), the Dual Axis Tracking mechanism, the mount, and the pedastal.
 
