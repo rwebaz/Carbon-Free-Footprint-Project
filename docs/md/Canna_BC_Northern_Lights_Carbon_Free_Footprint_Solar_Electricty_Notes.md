@@ -284,13 +284,13 @@ Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Ar
 
 >Then, encircle the URL with "parenthesis", as follows:
 
->[8 x 4 Solar Panel Array With Dual Axis Tracking](images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
+>\[8 x 4 Solar Panel Array With Dual Axis Tracking](images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
 
 >Be sure to to place the 'images' subdirectory that holds the actual image file (.png) under the same subdirectory that houses your document file (.md)
 
 >Finally, to enable the fetching and rendering of your subect image, place an exclamation point '!' at the beginning of your image statement.
 
->\![Example Photo](images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
+>!\[Example Photo](images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
 
 ##======================
 
