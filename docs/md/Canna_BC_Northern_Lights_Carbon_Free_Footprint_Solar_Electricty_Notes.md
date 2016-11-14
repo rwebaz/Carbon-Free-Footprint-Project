@@ -100,9 +100,7 @@ That you can expect to generate in one (1) year's time using a 1 kilo **Watt** (
 
 **Issue**. What is the power consumption of a **Dual Chamber BC Northern Lights Bloom Machine Grow Box**
 
-**Rule**. The **Dual Chamber BC Northern Lights Bloom Machine Grow Box** consumes approx. ( 8923 ) kilo **Watt** hours (kWh) ...
-
-of electron **Power Flow** every (24) hours.
+**Rule**. The **Dual Chamber BC Northern Lights Bloom Machine Grow Box** consumes approx. ( 8923 ) kilo **Watt** hours (kWh) of electron **Power Flow** every (24) hours.
 
 **Electrical Component**	|	**Rated Power Draw (W)**	|	**Hours On (hr)**	|	**Usage per day (Watt-hours)**
 ------------------------ 	| 	------------------------	|	-----------------	|	------------------------------
@@ -120,10 +118,12 @@ of electron **Power Flow** every (24) hours.
 							|								|						|	
 4w Water Pump				|		4 (W)					|		2/10th			|		0.80 Watt-hours
 																		
-**Total Usage Per Day (Watt-hours) ....................................................... 8923 Watt-hours**
-**Total Usage Per Day (kWh) .............................................................. 8.923 kilo Watt hours (kWh)**
+**Total Usage Per Day (Watt-hours) ....................................................... 8923 Watt-hours** ...
+##======================
+**Total Usage Per Day (kWh) .............................................................. 8.923 kilo Watt hours (kWh)** ...
 ##======================									
-**Cost Per kilo Watt hour ................................................................ 12 cents**
+**Cost Per kilo Watt hour ................................................................ 12 cents** ...
+##======================
 **Daily Cost ( 8.923 x 12 cents ) .........................................................$1.07**
 ##======================
 
