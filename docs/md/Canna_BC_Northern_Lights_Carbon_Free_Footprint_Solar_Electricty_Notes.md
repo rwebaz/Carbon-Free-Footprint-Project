@@ -22,7 +22,7 @@ Or, 125 **Watt**(s) (W) of power to operate efficiently.
 
 These and the fans, timer, ballast, etc. are the main electrical components of the **Dual Chamber BC Northern Lights Bloom Machine Grow Box**.
 
-======================
+##======================
 
 ###Electric kilo Watt
 
@@ -32,7 +32,7 @@ These and the fans, timer, ballast, etc. are the main electrical components of t
 
 Namely, a one-thousand (1000) **Watt**(s) (W) or 1000 joules per second in electron **Power Flow**.
 
-====================== 
+##====================== 
 
 ###Electric kilo Watt hour
 
@@ -40,7 +40,7 @@ Namely, a one-thousand (1000) **Watt**(s) (W) or 1000 joules per second in elect
 
 **Rule**. (1) Electric **kilo Watt hour** (kWh) = 1,000 **Watt**(s) (W) of electron **Power Flow** for one-hour at the rate of 1000 joules per second
 
-======================
+##======================
 
 ###Utility Company
 
@@ -48,7 +48,7 @@ Namely, a one-thousand (1000) **Watt**(s) (W) or 1000 joules per second in elect
 
 **Rule**. The **Utility Company** in Phoenix ( Arizona Power Supply or APS ) charges a flat rate of $0.12 per **(kWh)** for residential customers.
 
-======================
+##======================
 
 ###Solar Panels 
 
@@ -70,7 +70,7 @@ In the process of conversion, however, the electron **Power Flow** diminishes so
 
 What follows below is a Territorial Solar Rating based on that reduced ( now converted ) **Alternating Current (AC)** electron **Power Flow**.
 
-======================
+##======================
 
 ###Territorial Solar Rating
 
@@ -94,7 +94,7 @@ So, the approximate amount of **Direct Current (DC)** electricity converted to u
 
 That you can expect to generate in one (1) year's time using a 1 kilo **Watt** (kW) rated Solar Installation is ( 1560 for Phoenix ).
 
-======================
+##======================
 
 ###Dual Chamber BC Northern Lights Bloom Machine Grow Box
 
@@ -104,7 +104,6 @@ That you can expect to generate in one (1) year's time using a 1 kilo **Watt** (
 
 of electron **Power Flow** every (24) hours.
 
-##====================================================================================================================
 **Electrical Component**	|	**Rated Power Draw (W)**	|	**Hours On (hr)**	|	**Usage per day (Watt-hours)**
 ------------------------ 	| 	------------------------	|	-----------------	|	------------------------------
 400w HID Flowering Bulb		|		400 (W)					|		12				|		4800 Watt-hours
@@ -121,12 +120,12 @@ of electron **Power Flow** every (24) hours.
 							|								|						|	
 4w Water Pump				|		4 (W)					|		2/10th			|		0.80 Watt-hours
 																		
-**Total Usage Per Day (Watt-hours)**														8923 Watt-hours
-**Total Usage Per Day (kWh)**																8.923 kilo Watt hours (kWh)
-																
-**Cost Per kilo Watt hour** 																12 cents
-**Daily Cost** 																				$1.07
-##=====================================================================================================================
+**Total Usage Per Day (Watt-hours) ....................................................... 8923 Watt-hours**
+**Total Usage Per Day (kWh) .............................................................. 8.923 kilo Watt hours (kWh)**
+##======================									
+**Cost Per kilo Watt hour ................................................................ 12 cents**
+**Daily Cost ( 8.923 x 12 cents ) .........................................................$1.07**
+##======================
 
 **Analysis**. If you run your **Dual Chamber BC Northern Light Bloom Machine Grow Box** continuously on schedule every day of the year ...
 
@@ -189,6 +188,8 @@ This corresponds to a ( 2.10 - 3.00 ) kilo **Watt** (kW) rated system ( array ) 
 >So, for example ... a 2.10 (kW) System of Solar panels ( array ) = 2100 Watts ...
 
 >And, a 350 watt panel = .350 (kW)
+
+##======================
 
 **Conclusion**. Therefore, 2.10 (kW) x 1000 / 350 watt Solar panel =
 
