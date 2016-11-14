@@ -117,14 +117,15 @@ That you can expect to generate in one (1) year's time using a 1 kilo **Watt** (
 24w Bulb Circulation Fan(s) x 2	|	48 (W)					|		12				|		576 Watt-hours
 							|								|						|	
 4w Water Pump				|		4 (W)					|		2/10th			|		0.80 Watt-hours
-																		
-**Total Usage Per Day (Watt-hours) ....................................................... 8923 Watt-hours** ...
+
 ##======================
-**Total Usage Per Day (kWh) .............................................................. 8.923 kilo Watt hours (kWh)** ...
+**Total Usage Per Day (Watt-hours) ............................................................. 8923 Watt-hours**
+##======================
+**Total Usage Per Day (kWh) .................................................................... 8.923 kilo Watt hours (kWh)**
 ##======================									
-**Cost Per kilo Watt hour ................................................................ 12 cents** ...
+**Cost Per kilo Watt hour ...................................................................... 12 cents**
 ##======================
-**Daily Cost ( 8.923 x 12 cents ) .........................................................$1.07**
+**Daily Cost ( 8.923 x 12 cents ) ...............................................................$1.07**
 ##======================
 
 **Analysis**. If you run your **Dual Chamber BC Northern Light Bloom Machine Grow Box** continuously on schedule every day of the year ...
