@@ -224,7 +224,7 @@ This corresponds to a ( 2.10 - 3.00 ) kilo **Watt** (kW) rated system ( array ) 
 
 **Analysis**. To configure the 4 x 8 array of Solar Panels shown in the example photo requires (32) panels at a cost of $275 each, or $8,800 USD.
 
-![Example Photo](images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
+![8 x 4 Solar Panel Array With Dual Axis Tracking](images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
 
 Plus, the cost of the Micro-Inverters (MI), the Dual Axis Tracking mechanism, the mount, and the pedastal.
 
@@ -273,6 +273,24 @@ Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Ar
 >Copyright ©2016 [The Medical Marijuana Initiative of North America - International Limited](https://cannabuds.us/). All rights reserved.
 
 >This Webpage is being hosted via [GitHub Pages](https://pages.github.com/).
+
+##======================
+
+###Enabling Image URLs
+
+>When enabling Image URLs using GitHub Flavored Markdown (.md) ...
+
+>Simply place a "bracket" symbol in front of ( and, at the end of ) the 'Alt text' part of your Image URL.
+
+>Then, encircle the URL with "parenthesis", as follows:
+
+>[8 x 4 Solar Panel Array With Dual Axis Tracking](images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
+
+>Be sure to to place the 'images' subdirectory that holds the actual image file (.png) under the same subdirectory that houses your document file (.md)
+
+>Finally, to enable the fetching and rendering of your subect image, place an exclamation point '!' at the beginning of your image statement.
+
+>\![Example Photo](images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
 
 ##======================
 
