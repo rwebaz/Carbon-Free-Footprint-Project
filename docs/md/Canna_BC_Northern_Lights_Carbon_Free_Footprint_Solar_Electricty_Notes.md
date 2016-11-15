@@ -268,15 +268,23 @@ Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Ar
 
 >When enabling hyperlinks using GitHub Flavored Markdown (.md) ...
 
->Simply place a "bracket" symbol in front of ( and, at the end of ) the label part of your hyperlink.
+>Simply place a "bracket" symbol \[ label part ] in front of ( and, at the end of ) the label part of your hyperlink.
 
->Then, encircle the URL with "parenthesis", as follows:
+>Then, encircle the URL with "parenthesis", \( URL ) as follows:
+
+###Example
 
 >Copyright ©2016 \[The Medical Marijuana Initiative of North America - International Limited](https://cannabuds.us/). All rights reserved.
 
+###Result
+
 >Copyright ©2016 [The Medical Marijuana Initiative of North America - International Limited](https://cannabuds.us/). All rights reserved.
 
+###Example
+
 >This Webpage is being hosted via \[GitHub Pages](https://pages.github.com/).
+
+###Result
 
 >This Webpage is being hosted via [GitHub Pages](https://pages.github.com/).
 
