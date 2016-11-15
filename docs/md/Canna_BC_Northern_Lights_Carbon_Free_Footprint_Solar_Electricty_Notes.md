@@ -272,6 +272,8 @@ Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Ar
 
 >Then, encircle the URL with "parenthesis", as follows:
 
+>Copyright ©2016 \[The Medical Marijuana Initiative of North America - International Limited](https://cannabuds.us/). All rights reserved.
+
 >Copyright ©2016 [The Medical Marijuana Initiative of North America - International Limited](https://cannabuds.us/). All rights reserved.
 
 >This Webpage is being hosted via [GitHub Pages](https://pages.github.com/).
