@@ -250,15 +250,17 @@ Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Ar
 
 ##======================
 
-###Quoting Text in Blocks ( Blockquote )
+###Quoting Text in Blocks ( Blockquote ) Using Git Hub Flavored Markdown
 
 >When quoting text in blocks ( Blockquote ) using GitHub Flavored Markdown (.md) ...
 
 >Simply place a "greater than" symbol in front of your 2nd line of text, as follows:
 
-**Git Hub Flavored Markdown**
+\>As you can see, the usage of the "greater than" symbol in this case yields an indented 2nd line of text with a corresponding "thick pipe".
 
->As you can see, the usage of the "greater than" symbol in this case yields an indented 2nd line of text with a corresponding "thick pipe".
+###Indented 2nd Line of Text
+
+>... indented 2nd line of text
 
 ##======================
 
