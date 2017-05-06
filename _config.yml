@@ -23,3 +23,5 @@ defaults:
     values:
       layout: "default"
 timezone: America/Phoenix
+
+theme: jekyll-theme-cayman
