@@ -161,12 +161,6 @@ h2 {
     text-align: right;
 }
 
-
-
-
-
-
-
 .text-glyph {
     font-family: 'glyphicon-halflings-regular';
 }
@@ -199,7 +193,7 @@ hgroup {
     /* padding-bottom: .5em; */
     /* padding-left: .5em; */
     padding-top: .25em;
-    background: rgb(155,155,204) url("../images/svg/GH-GitHub-Profile-Banner-MMINAIL-Left-Logo-two-1400-x-230.svg") no-repeat; /* center center */
+    background: rgb(155,155,204) url("../images/sw-solar-world-eight-by-four-32-panel-array-w-dual-axis-tracking-y-top-blue-text-500-x-230.png") no-repeat; /* center center */
     background-size: cover; /* contain */
     color: #000531; 
     /* color: black; */
