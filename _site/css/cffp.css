@@ -1,0 +1,819 @@
+/* The main .css file for the mminail.gihub.io Git repo */
+
+/* Set the font-face(s) for the Website */
+
+/*  Note. C=> https://www.google.com/fonts for the entire 'eurostyle' group */
+@font-face {
+    font-family: 'eurostyle';
+    /* src: url(‘../fonts/euro/eurostyle.eot’); */
+    /* src: url('../fonts/euro/eurostyle.eot?#iefix') format(‘embedded-opentype’), */
+    src: url('../fonts/euro/eurostyle.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontawesome';
+    src: url('../fonts/glyph/fontawesome-webfont.eot');
+    src: url('../fonts/glyph/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/glyph/fontawesome-webfont.woff2') format('woff2'),
+        url('../fonts/glyph/fontawesome-webfont.woff') format('woff'),
+        url('../fonts/glyph/fontawesome-webfont.ttf') format('truetype'),
+        url('../fonts/glyph/fontawesome-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'glyphicon-halflings-regular';
+    src: url('../fonts/glyph/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyph/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+        url('../css/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+        url('../css/fonts/glyphicons-halflings-regular.woff') format('woff'),
+        url('../css/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+        url('../fonts/glyph/glyphicons-halflings-regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*  Note. C=> https://www.google.com/fonts for the entire 'trattatello' group  */
+@font-face {
+    font-family: 'trattatello';
+    /* src: url(‘../fonts/serif/trattatello.eot’); */
+    /* src: url('../fonts/serif/trattatello.eot?#iefix') format(‘embedded-opentype’), */
+    src: url('../fonts/serif/trattatello.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Set the html for the Website */
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* font: normal 100%/1.4 Georgia, serif; */
+}
+
+/* Set the body for the page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(155,155,204);
+    /* opacity: 0.5; /* ¡Cuidado! Both the Background-color AND the Text color are affected by the opacity level! */
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    height: 100%;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a[href^="https:"] {
+    font-family: 'eurostyle';
+    font-size: 1.25em;
+    color: #004B23; /* Forest Green */
+    letter-spacing: 1px;
+}
+
+a[href^="http:"] {
+    color: rgb(207,103,75); /* Indian Red */ 
+}
+
+h1 {
+    text-align: center;
+    /* min-width: 480px; */
+    width: calc(100% - 20px);
+    font-size: x-large;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: large;
+}
+
+/* Direct Classes */
+
+.canvas-text {
+    position: relative;
+    /* font-size: x-large; */
+    /* color: darkblue; */
+    /* text-align: center; */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border: 5px red groove;
+}
+
+/* Color Text Classes */
+.forest-green-text {
+    color: #004B23; /* Forest Green */
+}
+
+.neon-text {
+    color:lime; /* Neon Green */
+}
+
+/* Typeface Classes */
+.euro {
+    font-family: 'eurostyle';
+}
+
+.font-awesome {
+    font-family: 'fontawesome';
+}
+
+.glyph {
+    font-family: 'glyphicon-halflings-regular';
+}
+
+.text-euro {
+    font-family: 'eurostyle';
+}
+
+.text-trat {
+    font-family: 'trattatello';
+}
+
+/* Styled Text Classes */
+.oblique-text {
+    font-family: 'eurostyle';
+    /* font-style: oblique; */
+    font-size: 1.25em;
+    color: #CC6600; /* Ashley Gold */
+    /* border: 2px black groove; */
+    letter-spacing: 1px;
+    /* letter-spacing: normal; /* zero length */
+}
+
+.script-text {
+    font-style: italic;
+    font-family: cursive;
+}
+
+/* Directional Text Classes */
+.right-justify {
+    text-align: right;
+}
+
+
+
+
+
+
+
+.text-glyph {
+    font-family: 'glyphicon-halflings-regular';
+}
+
+/* Set the header elements */
+
+hgroup {
+    text-align: center;
+}
+
+/* Set the basic classes */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.panel-padding {
+    padding: 1%;
+}
+
+/* Set the background color and image for the header masthead */
+.masthead {
+    width: calc(100% - 0px);
+    /* max-width: 70%; */
+    max-width: 100%;
+    /* padding-right: .5em; */
+    /* padding-bottom: .5em; */
+    /* padding-left: .5em; */
+    padding-top: .25em;
+    background: rgb(155,155,204) url("../images/svg/GH-GitHub-Profile-Banner-MMINAIL-Left-Logo-two-1400-x-230.svg") no-repeat; /* center center */
+    background-size: cover; /* contain */
+    color: #000531; 
+    /* color: black; */
+    min-height: 230px;
+    /* max-width: 70%; */
+    /* min-width: 200px; */
+}
+
+/* Set the double-xx font size for the Immediate tag */
+i.largo {
+    font-size: xx-large;
+}
+
+.more-link {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Set the rule for a custom <hr /> 'hard return' tag */
+.green-groove {
+    border: 1px groove green;
+}
+
+.small-caps {
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+aside#navigator {
+    float: right;
+    width: 27%;
+    position: absolute;
+    right: 0;
+    min-width: 160px;
+    background-color: rgb(155,155,204); /* medium purple */
+    /* border-left: 2px solid #fff; */
+    padding: 1%;
+    /* margin-left: 73%; */
+}
+
+/* Nav semantic container classes */
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.menu li {
+    padding: 1%;
+    margin-bottom: 1%;
+    /* display: inline-block; */
+    /* max-width: 50%; /* limit width */
+    /* background-color: #33b5e5 */
+    background-color : rgb(155,155,204); /* Medium Purple */
+    /* text-align: left; */
+    color: #fff;
+    /* color: dodgerblue; */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+    background-color: rgb(207,103,75); /* Indian Red */
+    /* text-align: left; */
+    /* background-color: #0099cc; /* Dodger Blue */
+}
+
+.dropdown-menu {
+    text-align: center;
+}
+
+div.container {
+    background-color: #fff; /* White */
+}
+
+div.container-fluid {
+    /* background-color: skyblue; */
+    background-color: powderblue;
+    /* padding-right: 1%; */
+    /* padding-left: 1%; */
+    padding: 1%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+article.main-article {
+    text-align: left;
+    width: 73%;
+    /* background: hsl(220, 80%, 90%); /* sky blue */
+    /* background-color: cornsilk; */
+    /* background-color: lightyellow; */
+    /* background-color: rgb(254,254,205); /* full-moon yellow */
+    /* background-color: lightgoldenrodyellow; */
+    /* background-color: papayawhip; */
+    /* background-color: honeydew; */
+    /* background-color: palegoldenrod; */
+    /* background-color: linen; */
+    background-color:rgb(255,255,229); /* moonlight */
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    min-width: 200px;
+    /* border-right: 2px solid #fff; */
+}
+
+aside#supporting-content {
+    text-align: left;
+    /* float: right; */
+    /* width: 20%; */
+    background-color: rgb(155,155,204); /* Medium Purple */
+    padding: 1%;
+    /* border-left: 2px solid #fff; */
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+}
+
+/* Set the background color for the currently selected Nav tab */
+.currentlySelected {
+    background-color: #000531;
+    color: #fff;
+}
+
+/* Wordwrap and highlight the lines of code  */
+pre {
+    /* height: 100%; */
+    display: block;
+    /* display: inline; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: monospace; */
+    font-size: small;
+    margin: 1em 0;
+    /* Is the text-wrap selector now deprecated? */
+    /* text-wrap: normal; */
+    /* text-wrap: none; */
+    /* text-wrap: avoid; */
+    white-space: pre-wrap;
+    /* white-space: normal; */
+    /* white-space: nowrap; */
+    /* white-space: pre; */
+    /* white-space: pre-line; */
+    word-break: keep-all;
+    /* word-break: break-all; */
+    word-wrap: normal;
+    /* word-wrap: break-word; */
+    overflow-wrap: normal; /* hyphenate */
+    /* overflow-wrap: break-word; */
+    overflow: hidden;
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    text-overflow:  ellipsis;
+    /* text-overflow: clip; */
+    background-color: rgb(255,255,229); /* light yellow */
+    /* background: hsl(30,80%,90%); /* full moon yellow */
+}
+
+pre.flex-box {
+    display: flex;
+    /* flex-direction: row;
+    - where the default option is 'row' */
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+
+    /* -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap; */
+
+    /* -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+	        flex-flow: row; */
+
+    /* margin-right: -0.625rem;
+    margin-bottom: 0.75rem;
+    margin-left: -0.625rem; */
+}
+
+code {
+    /* height: 100%; */
+    /* text-justify: auto */
+    /* text-justify: initial */
+    /* text-justify: inter-word; */
+    /* text-justify: inter-cluster; */
+    /* text-justify: inter-ideograph; */
+    /* text-justify: distribute */
+    /* text-justify: kashida; */
+    /* text-justify: trim */
+    text-align: left;
+    /* Is the text-wrap selector deprecated? */
+    /* text-wrap: normal; */
+    /* text-wrap: none; */
+    /* text-wrap: avoid; */
+    white-space: nowrap;
+    /* white-space: normal; */
+    /* white-space: pre; */
+    /* white-space: pre-line; */
+    /* white-space: pre-wrap; */
+    word-break: keep-all;
+    /* word-break: break-all; */
+    word-wrap: normal;
+    /* word-wrap: break-word; */
+    overflow-wrap: normal; /* hyphenate */
+    /* overflow-wrap: break-word; */
+    overflow: hidden;
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    text-overflow:  ellipsis;
+    /* text-overflow: clip; */
+    background: hsl(220, 80%, 90%); /* sky blue */
+}
+
+mark,
+.mark {
+  /* padding: .2em; */
+  background-color: lime;
+}
+
+/* Set an alternative to default button 'medium' */
+.btn-med,
+.btn-group-med > .btn {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.3333333;
+    color: rgb(51,122,183); /* dark blue */
+    background-color: rgb(155,155,204); /* Medium Purple */
+    /* padding: 10px 16px; */
+    padding: 1%;
+    /* border-radius: 6px; */
+    border-radius: 4px;
+}
+
+/* Set the collapsable Responsive Image 'min-width' */
+img {
+    /* min-width: 340px; */
+    max-width: 100%;
+    height: auto;
+    border: 1px solid transparent;
+    /* border: 1px solid red; */
+}
+
+/* Set the page-footer for the Website */
+.page-footer {
+    display: block;
+    text-align: center;
+    font-size: small;
+    font-weight: 700;
+    padding: 1%;
+    left: auto;
+    right: auto;
+    min-width: 340px;
+    min-height: 160px;
+    z-index: 8;
+    /* position: absolute; */
+    /* bottom: 1%; */
+    background-color:rgb(255,255,229); /* moonlight */
+    /* background-color: #eebb55; /* orange-yellow */
+	/* background-color: #ffeebb; /* medium-wheat */
+    border-radius: 7pt;
+    border: 1px solid rgb(155,155,204); /* Medium Purple */
+    }
+
+.site-footer {
+    display: block;
+    text-align: center;
+    font-size: small;
+    font-weight: 700;
+    padding: 1%;
+    margin: 1% 35% 1% 0;
+    width: calc(73%);
+    /* max-width: 570px; */
+    max-width: 620px;
+    /* max-width: 570px; /*
+    /* 1% from the top ... */
+    /* 27% from the right ... */
+    /* Zero from the bottom ... */
+    /* Zero from the left ... */
+    /* min-width: 340px; */
+    z-index: 10;
+    /* position: absolute; */
+    /* bottom: 1%; */
+    /* background-color: linen; */
+    border-radius: 7pt;
+    border: 1px solid rgb(207,103,75); /* Indian Red */
+    }
+
+ul.none {
+    list-style-type: none;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+@media screen and (max-width: 800px) {
+
+h1 {
+    /* display: inline-block; */
+    /* overflow: hidden; */
+    text-align: center;
+    width: calc(100% - 00px);
+    font-size: x-large;
+    }
+
+h2 {
+    font-size: large;
+    }
+
+.masthead {
+    min-height: 220px;
+}
+
+.site-footer  {
+    margin: 1% 35% 1% 0;
+    width: calc(73%);
+    max-width: 620px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+h1 {
+    width: calc(100% - 20px);
+    max-width: 70%;
+    /* display: inline-block; */
+    /* overflow: hidden; */
+    text-align: center;
+    /* max-width: 180px; */
+    font-size: x-large;
+    /* margin-left: 250px; */
+    }
+
+article.main-article {
+    width: 70%;
+    }
+
+aside#navigator {
+    width: 30%;
+    position: relative;
+    min-width: 140px;
+    }
+.masthead {
+    min-height: 220px;
+}
+
+.btn-med, .btn-group-med > .btn {
+    text-align: left;
+    }
+
+.site-footer {
+    margin: 1% 35% 1% 1%;
+    width: calc(100% - 20px);
+    max-width: 630px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+h1 {
+    width: calc(100% - 10px);
+    max-width: 70%;
+    /* 200px / 360px */
+    /* display: inline-block; */
+    /* overflow: hidden; */
+    text-align: center;
+    /* max-width: 180px; */
+    /* max-height: 1px; */
+    font-size: large;
+    /* margin-top: 100 px; */
+    }
+
+article.main-article {
+    width: 65%;
+    }
+
+aside#navigator {
+    width: 35%;
+    min-width: 120px;
+    position: relative;
+    }
+
+.btn-med, .btn-group-med > .btn {
+    text-align: left;
+    }
+
+.img-responsive {
+    width: calc(100% - 0px);
+    max-width: 210px;
+    }
+
+.page-footer {
+    max-width: 210px;
+    min-width: 210px;
+    left: 0;
+    right: 0;
+    }
+
+.site-footer {
+    margin: 1% 1% 1% 1%;
+    width: calc(100% - 20px);
+    max-width: 350px;
+    }
+}
+
+/* This set of Css instructions are for the VS-Footer lesson
+
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 5%;
+}
+
+h1 {
+  font-size: 40px;
+  color: #f5a623;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #999;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding: 10px 5%;
+
+}
+
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+}
+
+a {
+  color: #1199c3;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #f3f3f3;
+  line-height: 28px;
+}
+
+#skills-h3 {
+  color: #f5ae23;
+  display: none;
+}
+
+.orange {
+  background-color: #f5ae23;
+}
+
+.orange-text {
+  color: #f5ae23;
+}
+
+.white-text {
+  font-weight: bold;
+  color: #fff;
+}
+
+.gray {
+  background-color: #f3f3f3;
+  padding-bottom: 10px;
+  clear: both;
+}
+
+.dark-gray {
+  background-color: #4a4a4a;
+}
+
+/* TODO: Replace with image later
+#header {
+  background-color: #484848;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
+.center-content {
+  padding: 2.5% 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+img {
+  padding: 10px;
+}
+
+span {
+  padding: 5px;
+}
+
+#lets-connect {
+  text-align: center;
+}
+
+/* Media queries to handle various device widths
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+} */
