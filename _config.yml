@@ -1,4 +1,3 @@
-# github: [metadata]
 title: Carbon Free Footprint Project
 tagline: An analysis of carbon emission when operating a BC Northern Lights Bloombox “Full Blast” 24/7
 author:
@@ -23,3 +22,4 @@ defaults:
     values:
       layout: "default"
 timezone: America/Phoenix
+# github: [metadata]
