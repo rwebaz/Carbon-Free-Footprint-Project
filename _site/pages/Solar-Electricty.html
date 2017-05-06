@@ -1,0 +1,1586 @@
+<!DOCTYPE html>
+<!-- Set the base language to English -->
+<html lang="en">
+<!-- Comment out Angular js 
+	( ng ) application ( app ) w data input validation ( data ) 
+<html lang="en" data-ng-app=""> -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+	<link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<!-- Comment Out: Bootstrap Large icon
+	<link href="../css/themes/bootstrap.icon-large.min.css" rel="stylesheet" /> -->
+	<!-- Comment Out: Flex Box css
+	<link href="../css/full/flex-box.css" rel="stylesheet" /> -->
+	<!-- Comment Out: jQuery Mobile remote css
+	<link href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" rel="stylesheet" /> -->
+	<link href="../node_modules/jquery-mobile/css/themes/default/jquery.mobile.css" rel="stylesheet" />
+	<link href="../node_modules/jquery-mobile/css/themes/default/jquery.mobile.icons.css" rel="stylesheet" />
+	<!-- Comment Out: Zocial css
+	<link href="../css/full/zocial.css" rel="stylesheet" /> -->
+	<!-- Comment Out: Highlight js remote css
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/default.min.css" rel="stylesheet" /> -->
+	<!-- Comment Out: Highlight js locale css
+	<link href="../highlight-js/styles/foundation.css" rel="stylesheet" /> -->
+	<link href="../css/cffp.css" rel="stylesheet" />
+	<!-- Comment Out: Prism css
+	<link href="../css/themes/prism.css" rel="stylesheet" /> -->
+	<!-- Add Standard favicon Link -->
+	<link type="image/x-icon" href="/favicon.ico?" rel="shortcut icon" />
+	<!-- Add Dan's Fav icon Generator Links -->
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- End Dan's Fav icon Generator Links -->
+
+<!-- Google Tag Mgr MAIN Code -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NGX5TCX');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Enable Facebook MAIN Pixel Code 
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1296296867119545', {
+em: 'insert_email_variable'
+});
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1296296867119545&ev=PageView&noscript=1"
+/></noscript> -->
+
+</head>
+
+<!-- Place Additional Facebook Pixel EVENT Code here 
+<script>fbq('track', '<EVENT_NAME>');</script> -->
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGX5TCX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="masthead">
+
+	<aside id="navigator"><nav class="menu">
+    <ul class="nav nav-stacked">
+        <li style="text-align:center;"><a class="dotEPUB" data-dotepublang="en" data-dotepublinks="1" href="https://www.dotepub.com" title="Click to Convert This page to an (.epub) or a (.mobi) file.">
+		<img src="../images/png/dot-epub-button-62-x-20.png" alt="small dot epub button" /></a></li>
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Navigator</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-screenshot"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../pages/about-us.htm" class="btn btn-med btn-success" title="Click to Jump To the About Us Page" target="_self">About Us <i class="glyphicon glyphicon-ok"></i></a></li>
+        <li class="btn-group-med"><a href="../pages/contact-us.htm" class="btn btn-med btn-success" title="Click to Jump To the Contact Us Page" target="_self">Contact Us <i class="glyphicon glyphicon-phone"></i></a></li>
+        <li class="btn-group-med"><a href="../pages/affiliates.htm" class="btn btn-med btn-success" title="Click to Jump To the Affiliates Page" target="_self">Affiliates <i class="glyphicon glyphicon-bullhorn"></i></a></li>
+        <li class="btn-group-med"><a href="../pages/glyphicons.htm" class="btn btn-med btn-success" title="Click to Jump To the Glyphicons Page" target="_self">Glyphicons <i class="glyphicon glyphicon-pushpin"></i></a></li>
+        <li class="btn-group-med"><a href="../pages/license.htm" class="btn btn-med btn-success" title="Click to Jump To the License Page" target="_self">License <i class="glyphicon glyphicon-flag"></i></a></li>
+        <li class="btn-group-med"><a href="../pages/privacy-policy.htm" class="btn btn-med btn-success" title="Click to Jump To the Privacy Policy Page" target="_self">Privacy Policy <i class="glyphicon glyphicon-lamp"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Donate Today</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-thumbs-up"></i></button>
+        
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Donate/How-To-Donor-Box.htm" class="btn btn-med btn-success" title="Click to Jump To the How To Donor Box Page" target="_self">How To Donor Box  <i class="glyphicon glyphicon-heart-empty"></i></a></li>
+        <li class="btn-group-med"><a href="../Donate/Pay-It-Forward.htm" class="btn btn-med btn-success" title="Click to Jump To the Pay It Forward Page" target="_self">Pay It Forward <i class="glyphicon glyphicon-heart-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Donate/Learn-To-Donate-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn To Donate Now Page" target="_self">Learn To Donate <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Social Media</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-fire"></i></button>
+        
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Social/social-algiatry.htm" class="btn btn-med btn-success" title="Click to Jump To the Social Algiatry Page" target="_self">Algiatry <i class="glyphicon glyphicon-tent"></i></a></li>
+        <li class="btn-group-med"><a href="../Social/social-bitly.htm" class="btn btn-med btn-success" title="Click to Jump To the Social Bitly Page" target="_self">Social Bitly <i class="glyphicon glyphicon-tent"></i></a></li>
+        <li class="btn-group-med"><a href="../Social/social-amplification.htm" class="btn btn-med btn-success" title="Click to Jump To the Social Amplification Page" target="_self">Amplification <i class="glyphicon glyphicon-tent"></i></a></li>
+        <li class="btn-group-med"><a href="../Social/social-engineering.htm" class="btn btn-med btn-success" title="Click to Jump To the Social Engineering Page" target="_self">Social Engineering <i class="glyphicon glyphicon-tent"></i></a></li>
+        <li class="btn-group-med"><a href="../Social/social-relaxation.htm" class="btn btn-med btn-success" title="Click to Jump To the Social Relaxation Page" target="_self">Relaxation <i class="glyphicon glyphicon-tent"></i></a></li>
+        <li class="btn-group-med"><a href="../Social/sleep-insomnia.htm" class="btn btn-med btn-success" title="Click to Jump To the Sleep Insomnia Page" target="_self">Sleep Insomnia <i class="glyphicon glyphicon-tent"></i></a></li>
+        <li class="btn-group-med"><a href="../Social/social-media.htm" class="btn btn-med btn-success" title="Click to Jump To the Social Media Page" target="_self">Social Media <i class="glyphicon glyphicon-tent"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Social/Learn-Social-Media-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Social Media Page" target="_self">Learn Social Media <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Angular</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-anchor"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Angular/Data-Binding.htm" class="btn btn-med btn-success" title="Click to Jump To the Angular Js Data Bind Page" target="_self">Data Binding <i class="glyphicon glyphicon-pushpin"></i></a></li>
+        <li class="btn-group-med"><a href="../Angular/DOM-Property-Binding.htm" class="btn btn-med btn-success" title="Click to Jump To the DOM Property Binding Page" target="_self">DOM Property Binding <i class="glyphicon glyphicon-pushpin"></i></a></li>
+        <li class="btn-group-med"><a href="../Angular/Installing-The-CLI.htm" class="btn btn-med btn-success" title="Click to Jump To the Angular Installing The CLI Page" target="_self">Install CLI <i class="glyphicon glyphicon-pushpin"></i></a></li>
+        <li class="btn-group-med"><a href="../Angular/liquid-angular.htm" class="btn btn-med btn-success" title="Click to Jump To the Liquid Angular Page" target="_self">Liquid Angular <i class="glyphicon glyphicon-pushpin"></i></a></li>
+        <li class="btn-group-med"><a href="../Angular/Object-Destructure.htm" class="btn btn-med btn-success" title="Click to Jump To the Angular Js Data Bind Page" target="_self">Object Destructure <i class="glyphicon glyphicon-pushpin"></i></a></li>
+        <li class="btn-group-med"><a href="../Angular/Webpack-Bundler.htm" class="btn btn-med btn-success" title="Click to Jump To the Webpack Bundler Page" target="_self">Webpack Bundler <i class="glyphicon glyphicon-pushpin"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Angular/Learn-Angular-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Angular Page" target="_self">Learn Angular <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Css3</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-cogwheels"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Css3/css-fonts.htm" class="btn btn-med btn-success" title="Click to Jump To the Css Fonts Page" target="_self">Css Fonts <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li class="btn-group-med"><a href="../Css3/dot-largo.htm" class="btn btn-med btn-success" title="Click to Jump To the Dot Largo Page" target="_self">Dot Largo <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li class="btn-group-med"><a href="../Css3/flex-box.htm" class="btn btn-med btn-success" title="Click to Jump To the Flex Box Page" target="_self">Flex Box <i class="glyphicon glyphicon-wrench"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Css3/Learn-Css4-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Css Page" target="_self">Learn Css4 <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        <li class="btn-group-med"><a href="../Css3/css4.htm" class="btn btn-med btn-success" title="Click to Jump To the Css4 Page" target="_self">Css4 <i class="glyphicon glyphicon-wrench"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Forex</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-binoculars"></i></button>
+        
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Forex/Operational-hedging.htm" class="btn btn-med btn-success" title="Click to Jump To the Operational Hedging Page" target="_self">Operational Hedging <i class="glyphicon glyphicon-bell"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Forex/Learn-Forex-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Forex Page" target="_self">Learn Forex <i class="glyphicon glyphicon-star-empty"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class='btn-group-vertical center-block'>
+        <button type='button' class='btn btn-med'><hgroup class='text-center'><h3>Homebrew</h3></hgroup>
+        <button type='button' class='btn btn-lg dropdown-toggle' data-toggle='dropdown'><i class='icon-large icon-beer'></i></button>
+
+        <ul class='btn-group-lg dropdown-menu' role='menu'>
+        <li class='btn-group-med'><a href='../Homebrew/Ruby-Macports-2nd-Instance.htm' class='btn btn-med btn-success' title='Click to Jump To the Ruby Macports 2nd Instance Page' target='_self'>Ruby Macports <i class='glyphicon glyphicon-qrcode'></i></a></li>
+        
+        <li class='divider'></li>
+        <li class='btn-group-med'><a href='../Homebrew/Learn-Homebrew-Now.htm' class='btn btn-med btn-success' title='Click to Jump To the Learn Hypertext Page' target='_self'>Learn Homebrew <i class='glyphicon glyphicon-star-empty'></i></a></li>
+        
+        <li class='divider'></li>
+        <li class='btn-group-med'><a href='/index.htm' class='btn btn-med btn-success' title='Click to Jump To the Home Page' target='_self'>Home Page <i class='glyphicon glyphicon-home'></i></a></li>
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Html5</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-lightbulb"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Html5/The-Canvas.htm" class="btn btn-med btn-success" title="Click to Jump To the Html 5 Canvas Page" target="_self">The Canvas <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li class="btn-group-med"><a href="../Html5/Convert-To-SVG.htm" class="btn btn-med btn-success" title="Click to Jump To the Convert To SVG Page" target="_self">Convert To SVG <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li class="btn-group-med"><a href="../Html5/html-5-lang.htm" class="btn btn-med btn-success" title="Click to Jump To the Html 5 Lang Page" target="_self">Html 5 Lang <i class="glyphicon glyphicon-wrench"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Html5/Learn-Html-5-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Html 5 Page" target="_self">Learn Html <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Hypertext</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-train"></i></button>
+        
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Hypertext/Denial-O-Service.htm" class="btn btn-med btn-success" title="Click to Jump To the Denial of Service Page" target="_self">Denial of Service <i class="glyphicon glyphicon-random"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Hypertext/Learn-Hypertext-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Hypertext Page" target="_self">Learn Hypertext <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Javascript</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-note"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Javascript/Arrays.htm" class="btn btn-med btn-success" title="Click to Jump To the Arrays in Javascript Page" target="_self">Arrays <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li class="btn-group-med"><a href="../Javascript/Classes.htm" class="btn btn-med btn-success" title="Click to Jump To the Classes in Javascript Page" target="_self">Classes <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li class="btn-group-med"><a href="../Javascript/Objects.htm" class="btn btn-med btn-success" title="Click to Jump To the Objects in Javascript Page" target="_self">Objects <i class="glyphicon glyphicon-wrench"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Javascript/Altering-The-Constant.htm" class="btn btn-med btn-success" title="Click to Jump To the Altering the Constant in Javascript Page" target="_self">Altering The Constant <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li class="btn-group-med"><a href="../Javascript/Construct-A-Donor.htm" class="btn btn-med btn-success" title="Click to Jump To the Construct-A-Donor in Page" target="_self">Construct-A-Donor <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li class="btn-group-med"><a href="../Javascript/kaleidoscopic-Visual-Effects.htm" class="btn btn-med btn-success" title="Click to Jump To the Kaleidoscopic Visual Effects n Javascript Page" target="_self">Kaleidoscopic Visual Effects <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li class="btn-group-med"><a href="../Javascript/Local-Scope.htm" class="btn btn-med btn-success" title="Click to Jump To the Local Scope in Javascript Page" target="_self">Local Scope <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li class="btn-group-med"><a href="../Javascript/Principles-of-Javascript.htm" class="btn btn-med btn-success" title="Click to Jump To the Principles of Javascript Page" target="_self">Principles <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li class="btn-group-med"><a href="../Javascript/Square-It-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Square It in Javascript Page" target="_self">Square It <i class="glyphicon glyphicon-wrench"></i></a></li> 
+        <li class="btn-group-med"><a href="../Javascript/Unicode-Code-Points.htm" class="btn btn-med btn-success" title="Click to Jump To the Unicode Code Points in Javascript Page" target="_self">Unicode Code Points <i class="glyphicon glyphicon-wrench"></i></a></li> 
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Javascript/Learn-Javascript-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Javascript Page" target="_self">Learn Javascript <i class="glyphicon glyphicon-star-empty"></i></a></li> 
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class='btn-group-vertical center-block'>
+        <button type='button' class='btn btn-med'><hgroup class='text-center'><h3>Jekyll</h3></hgroup>
+        <button type='button' class='btn btn-lg dropdown-toggle' data-toggle='dropdown'><i class='icon-large icon-old-man'></i></button>
+
+        <ul class='btn-group-lg dropdown-menu' role='menu'>
+        <li class='btn-group-med'><a href='../Jekyll/liquid-wrappers.htm' class='btn btn-med btn-success' title='Click to Jump To the Liquid Wrappers Page' target='_self'>Liquid Wrappers <i class='glyphicon glyphicon-random'></i></a></li>
+        <li class='btn-group-med'><a href='../Jekyll/rendering-objects.htm' class='btn btn-med btn-success' title='Click to Jump To the Rendering Objects Page' target='_self'>Rendering Objects <i class='glyphicon glyphicon-random'></i></a></li>
+        
+        <li class='divider'></li>
+        <li class='btn-group-med'><a href='../Jekyll/Learn-Jekyll-Now.htm' class='btn btn-med btn-success' title='Click to Jump To the Learn Jekyll Page' target='_self'>Learn Jekyll <i class='glyphicon glyphicon-star-empty'></i></a></li>
+
+        <li class='divider'></li>
+        <li class='btn-group-med'><a href='/index.htm' class='btn btn-med btn-success' title='Click to Jump To the Home Page' target='_self'>Home Page <i class='glyphicon glyphicon-home'></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>jQuery</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-airplane"></i></button>
+        
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../jQuery/Parse-a-URL.htm" class="btn btn-med btn-success" title="Click to Jump To the Parse-a-URL in jQuery Page" target="_self">Parse-a-URL <i class="glyphicon glyphicon-plane"></i></a></li>
+        <li class="btn-group-med"><a href="../jQuery/Resume-Builder.htm" class="btn btn-med btn-success" title="Click to Jump To the Resume Builder Page" target="_self">Resume Builder <i class="glyphicon glyphicon-plane"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../jQuery/Learn-jQuery-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn jQuery Page" target="_self">Learn jQuery <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Math</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-calculator"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Math/create-form.htm" class="btn btn-med btn-success" title="Click to Jump To the Create Form Page" target="_self">Create Form <i class="glyphicon glyphicon-phone"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Math/Learn-Math-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Math Page" target="_self">Learn Math <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Mongo DB</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-database-lock"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Mongo-DB/Install-Mongo-DB.htm" class="btn btn-med btn-success" title="Click to Jump To the Install Mongo DB Page" target="_self">Install Mongo DB <i class="glyphicon glyphicon-bullhorn"></i></a></li>
+        <li class="btn-group-med"><a href="../Mongo-DB/Version-Number.htm" class="btn btn-med btn-success" title="Click to Jump To the Version Number Page" target="_self">Version Number <i class="glyphicon glyphicon-bullhorn"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Mongo-DB/Learn-Mongo-DB.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Mongo DB Page" target="_self">Learn Mongo DB <i class="glyphicon glyphicon-star-empty"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Node</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-roundabout"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Node/create-local-server.htm" class="btn btn-med btn-success" title="Click to Jump To the Node Create Server Page" target="_self">Node Create Server <i class="glyphicon glyphicon-globe"></i></a></li>
+        <li class="btn-group-med"><a href="../Node/node-read-file.htm" class="btn btn-med btn-success" title="Click to Jump To the Node Read File Page" target="_self">Node Read File <i class="glyphicon glyphicon-globe"></i></a></li>
+        <li class="btn-group-med"><a href="../Node/create-node-app.htm" class="btn btn-med btn-success" title="Click to Jump To the Node Create App Page" target="_self">Node Create App <i class="glyphicon glyphicon-globe"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Node/Learn-Node-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Node Page" target="_self">Learn Node <i class="glyphicon glyphicon-star-empty"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Python</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-pencil"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Python/python.htm" class="btn btn-med btn-success" title="Click to Jump To the Python Page" target="_self">Python Page <i class="glyphicon glyphicon-wrench"></i></a></li>
+        <li class="btn-group-med"><a href="../Python/fibonacci-series.htm" class="btn btn-med btn-success" title="Click to Jump To the Fibonacci Series Page" target="_self">Fibonacci Series <i class="glyphicon glyphicon-wrench"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Python/Learn-Python-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Python Page" target="_self">Learn Python <i class="glyphicon glyphicon-star-empty"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Typescript</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-kettle"></i></button>
+        
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Typescript/static-variables.htm" class="btn btn-med btn-success" title="Click to Jump To the Static Variables Page" target="_self">Static Variables <i class="glyphicon glyphicon-ice-lolly"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Typescript/Learn-Typescript-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Typescript Page" target="_self">Learn Typescript <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Accessions</h3></hgroup>
+	    <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-tree-deciduous"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Accessions/new-accession.htm" class="btn btn-med btn-success" title="Click to Jump To the New Accession" target="_self">New Accession <i class="glyphicon glyphicon-leaf"></i></a></li>
+        <li class="btn-group-med"><a href="../Accessions/target-nucleus.htm" class="btn btn-med btn-success" title="Click to Jump To the Target Nucleus" target="_self">Target Nucleus <i class="glyphicon glyphicon-leaf"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Accessions/Learn-Accessions-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Accessions Page" target="_self">Learn Accessions <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Cuisine</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-birthday-cake"></i></button>
+        
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Cuisine/the-paladian-traveler.htm" class="btn btn-med btn-success" title="Click to Jump To the Paladian Traveler Page" target="_self">The Paladian Traveler <i class="glyphicon glyphicon-euro"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Cuisine/Learn-Cuisine-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Cuisine Page" target="_self">Learn Cuisine <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Landraces</h3></hgroup>
+	    <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-tree-conifer"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Landraces/aloe.htm" class="btn btn-med btn-success" title="Click to Jump To the Aloe Page" target="_self">Aloe <i class="glyphicon glyphicon-grain"></i></a></li>
+        <li class="btn-group-med"><a href="../Landraces/basil.htm" class="btn btn-med btn-success" title="Click to Jump To the Basil Page" target="_self">Basil <i class="glyphicon glyphicon-grain"></i></a></li>
+	    <li class="btn-group-med"><a href="../Landraces/indica.htm" class="btn btn-med btn-success" title="Click to Jump To the Indica Page" target="_self">Indica <i class="glyphicon glyphicon-grain"></i></a></li>
+        <li class="btn-group-med"><a href="../Landraces/ruderalis.htm" class="btn btn-med btn-success" title="Click to Jump To the Ruderalis Page" target="_self">Ruderalis <i class="glyphicon glyphicon-grain"></i></a></li>
+        <li class="btn-group-med"><a href="../Landraces/sativa.htm" class="btn btn-med btn-success" title="Click to Jump To the Sativa Page" target="_self">Sativa <i class="glyphicon glyphicon-grain"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Landraces/Learn-Landraces-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Landraces Page" target="_self">Learn Landraces <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>MedMj</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown">
+        <i class="icon-large"><picture><img class='img-responsive img-circle' src='/favicon.ico'
+        alt='Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation USPTO Registered Logo Badge Favicon' />
+        </picture></i></button>
+        
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../MedMj/Anti-MRSA.htm" class="btn btn-med btn-success" title="Click to Jump To the Anti-MRSA Page" target="_self">Anti-MRSA <i class="glyphicon glyphicon-gift"></i></a></li>
+        <li class="btn-group-med"><a href="../MedMj/Bio-Tech-Sativa.htm" class="btn btn-med btn-success" title="Click to Jump To the Bio Tech Sativa Page" target="_self">Bio Tech Sativa <i class="glyphicon glyphicon-gift"></i></a></li>
+        <li class="btn-group-med"><a href="../MedMj/Carbon-Free-Footprint-Project.htm" class="btn btn-med btn-success" title="Click to Jump To the Carbon Free Footprint Project Page" target="_self">Carbon Free Footprint <i class="glyphicon glyphicon-gift"></i></a></li>
+        <li class="btn-group-med"><a href="../MedMj/HB-2003-Az.htm" class="btn btn-med btn-success" title="Click to Jump To the House Bill 2003 Page" target="_self">HB 2003 Az <i class="glyphicon glyphicon-gift"></i></a></li>
+        <li class="btn-group-med"><a href="../MedMj/Southcoast-Dispensaries.htm" class="btn btn-med btn-success" title="Click to Jump To the Southcoast Dispensaries Page" target="_self">Southcoast Dispensaries <i class="glyphicon glyphicon-gift"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../MedMj/Learn-Medmj-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Medmj Page" target="_self">Learn Medmj <i class="glyphicon glyphicon-star-empty"></i></a></li>
+
+        <li class="divider"></li>
+	    <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li> 
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Politics</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-magic"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Politics/Trump-Cannabis.htm" class="btn btn-med btn-success" title="Click to Jump To the Trump Cannabis Page" target="_self">Trump Cannabis <i class="glyphicon glyphicon-hourglass"></i></a></li>
+        <li class="btn-group-med"><a href="../Politics/Trump-Wins.htm" class="btn btn-med btn-success" title="Click to Jump To the Trump Wins! Page" target="_self">Trump Wins! <i class="glyphicon glyphicon-hourglass"></i></a></li>
+        <li class="btn-group-med"><a href="../Politics/Trump-Voodoo.htm" class="btn btn-med btn-success" title="Click to Jump To the Trump Voodoo Page" target="_self">Trump Voodoo <i class="glyphicon glyphicon-hourglass"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Politics/Learn-Politics-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Politics Page" target="_self">Learn Politics <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Quanta</h3></hgroup>
+	    <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-temple-buddhist"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Quanta/Ancient-Words.htm" class="btn btn-med btn-success" title="Click to Jump To the Ancient Words Page" target="_self">Ancient Words <i class="glyphicon glyphicon-education"></i></a></li>
+        <li class="btn-group-med"><a href="../Quanta/Prince-Siddhartha.htm" class="btn btn-med btn-success" title="Click to Jump To the Prince Siddhartha Page" target="_self">Prince Siddhartha <i class="glyphicon glyphicon-education"></i></a></li>
+        <li class="btn-group-med"><a href="../Quanta/trump-wins.htm" class="btn btn-med btn-success" title="Click to Jump To the Trump Wins Page" target="_self">Trump Wins <i class="glyphicon glyphicon-education"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Quanta/Learn-Quanta-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Quanta Page" target="_self">Learn Quanta <i class="glyphicon glyphicon-star-empty"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>Solar Power</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-electricity"></i></button>
+        
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../Solar/solar.htm" class="btn btn-med btn-success" title="Click to Jump To the Solar Page" target="_self">Solar Page <i class="glyphicon glyphicon glyphicon-sunglasses"></i></a></li>
+        <li class="btn-group-med"><a href="../Solar/definition-list.htm" class="btn btn-med btn-success" title="Click to Jump To the Definition List Page" target="_self">Definition List <i class="glyphicon glyphicon glyphicon-sunglasses"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../Solar/Learn-Solar-Power-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Solar Page" target="_self">Learn Solar <i class="glyphicon glyphicon-star-empty"></i></a></li>
+        
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+        
+        </ul>
+        </button>
+        </li>
+
+        <li class="btn-group-vertical center-block">
+        <button type="button" class="btn btn-med"><hgroup class="text-center"><h3>VS Code</h3></hgroup>
+        <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown"><i class="icon-large icon-cogwheel"></i></button>
+
+        <ul class="btn-group-lg dropdown-menu" role="menu">
+        <li class="btn-group-med"><a href="../VSCode/mac-user-snippets.htm" class="btn btn-med btn-success" title="Click to Jump To the Visual Studio Code User Snippets for Mac Page" target="_self">User Snippets <i class="glyphicon glyphicon-check"></i></a></li>
+        <li class="btn-group-med"><a href="../VSCode/footer-vs.htm" class="btn btn-med btn-success" title="Click to Jump To the Visual Studio Code Footer Page" target="_self">Footer VS <i class="glyphicon glyphicon-check"></i></a></li>
+
+        <li class="divider"></li>
+        <li class="btn-group-med"><a href="../VSCode/Learn-Vs-Code-Now.htm" class="btn btn-med btn-success" title="Click to Jump To the Learn Visual Studio Code Page" target="_self">Learn VS Code <i class="glyphicon glyphicon-star-empty"></i></a></li>
+
+        <li class="divider"></li>
+	    <li class="btn-group-med"><a href="/index.htm" class="btn btn-med btn-success" title="Click to Jump To the Home Page" target="_self">Home Page <i class="glyphicon glyphicon-home"></i></a></li>
+
+        </ul>
+        </button>
+        </li> 
+
+    </ul>
+    
+    <aside id="supporting-content">
+		<hgroup class="text-center">
+	<h3>Supporting Content <i class="icon-large icon-eye-open"></i></h3>
+</hgroup>
+	<hr />
+
+<hgroup class='text-left'>
+	<h4>E Books</h4>
+</hgroup>
+	<hr />
+
+<p>
+	<span>With today's explosion of modern devices, some consumers like to read their articles on their Kindles or iPads.</span>
+</p>
+
+<p>
+	<span>Therefore, a method to convert any page of this website into an 'eBook' is auto-built into the top of the navigation stack as well as the footer of every page.</span>
+</p>
+	<hr />
+
+<p>
+	<span>Simply click the</span>
+	<a class="dotEPUB" data-dotepublang="en" data-dotepublinks="1" href="https://www.dotepub.com" title="Click to Convert This page to an (.epub) or (.mobi) file.">
+		<img src="../images/png/dot-epub-button-62-x-20.png" alt="small dot epub button" />
+		<span>eBook icon</a> to render the current page as an Overdrive (.epub) or a Kindle (.mobi) for external reading.</span>
+</p>
+	<hr />
+
+<hgroup class="text-left">
+	<h4>The A's Have It!</h4>
+</hgroup>
+	<hr />
+
+<p>
+	<span>In today's complicated world of coding, even the use of the standard hyperlink has come into question.</span>
+</p>
+
+<p>
+	<span>Therefore, to make it easy for the end-user, this User Interface, or <abbr class='oblique-text' title='User Interface'>UI</abbr> will show safe internal links in the bootstrap default color of <span style="color:#337ab7">light dodger blue</span>.</span>
+</p>
+
+<p>
+	<span>On the other hand, external links, when designated https secure ...</span> 
+	<span>Will be shown in the color of <span style="color:#004B23;">forest green</span>.</span>
+</p>
+
+<p>
+	<span>All other external links designated with standard http will be shown in the color of <span style="color:rgb(207,103,75);">indian red</span>.</span>
+</p>
+	<hr />
+
+<hgroup class="text-left">
+	<h4>Acronyms</h4>
+</hgroup>
+	<hr />
+
+<p>
+	<span>For an acronym to be visually effective when reading a line of text, the acronym must first be declared.</span> 
+</p>
+
+<p>
+	<span>In addition, the acronym must stand out from the body of information.</span>
+</p>
+
+<p>
+	<span>To accomplsh both of these objectives, the authors have selected <abbr class='oblique-text' title='Ashley Gold: The Stem of the Leaf, a primary color of the registered resident logo badge'>Ashley Gold</abbr>, a primary color within the registered logo badge of the Benefit corporation.</span>
+</p>
+
+<p>
+	<span>Whenever the end user spies a designated acronym of <abbr class='oblique-text' title='Ashley Gold: The Stem of the Leaf, a primary color of the registered resident logo badge'>Ashley Gold</abbr> color, simply hover over the acronym to reveal the underlying meaning of the acronym letters.</span>
+</p>
+	<hr />
+
+<hgroup class="text-left">
+	<h4>Screen Reponsiveness</h4>
+</hgroup>
+	<hr />
+
+<p>
+	<span>This page has been tested for mobile responsiveness on a virtual Galaxy S5 smartphone emulator.</span>
+</p>
+	<hr />
+	
+<p>
+	<span>The authors have determined the accuracies of the page renderings at both a portrait width of 360px and a landscape width of 640px.</span>
+</p>
+	<hr />
+
+<p>
+	<span>In addition, pages are also tested against an Amazon Kindle Fire HDX 7, 3rd Generation tablet.</span>
+</p>
+	<hr />
+
+<p>
+	<span>On the Kindle tablet, both portrait and landscape renderings appear accurate, as well.</span>
+</p>
+	<hr />
+
+<p>
+	<span>And, on the Amazon Fire phone, using automatic screen rotation, both portrait and landscape renderings appear accurate.</span>
+</p>
+	<hr />
+
+<hgroup class="text-left">
+	<h4>Navigation</h4>
+</hgroup>
+	<hr />
+
+<p>
+	<span>Here, the Navigator <code>&lt;aside&gt;</code> is set for a nine (9) character description of each category.</span>
+</p>
+	<hr />
+
+<p>
+	<span>Though please note some category titles do have ten (10) characters and are therefore best viewed in landscape mode.</span>
+</p>
+	<hr />
+
+<hgroup class="text-left">
+	<h4>Got An Idea?</h4>
+</hgroup>
+	<hr />
+
+<p>
+	<span>If you have an idea that will spruce this site up even better than it already is, then you know the drill.</span>
+</p>
+	<hr />
+<p>
+	<span>Simply go ahead and <a href="https://github.com/MMINAIL/mminail.github.io.git" title="Click To Fork this MMINAIL Repository" target="_blank">fork</a> this repo, make your changes, and send me a pull request.</span>
+</p>
+	<hr />
+
+<hgroup class="text-left">
+	<h4>Carbon Free Footprint</h4>
+</hgroup>
+	<hr />
+
+<p>
+	<span>The <b>Carbon Free Footprint</b> project is a division of the</span>
+	<span><a href="https://mminail.github.io" title="Click to Visit the Home Page of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation" onclick="javaScript:this.target='_blank';">Medical Marijuana Initiative of North America - International Limited</a>,</span>
+	<span>an Arizona Benefit corporation.</span>
+</p>
+
+<p>
+	<span><b>Note</b>.</span>
+	<span>The repo for the <b>Carbon Free Footprint</b> project has been hard-fork'd to another location at the Git Hub server farm.</span>
+</p>
+	<hr />
+
+<hgroup class="text-left">
+	<h4>Learning the ways of the Javascript Ninja</h4>
+</hgroup>
+	<hr />
+
+<p>
+	<span><b>Note</b>.</span>
+	<span>The Http Headers of this repo are being monitored by </span>
+	<a href="http://internetsupervision.com/" title="Site Monitoring - InternetSupervision.com" target="_blank">Internet Supervision dot com</a>
+</p>
+	<hr />
+
+<hgroup class="text-left">
+	<h4>The MMINAIL</h4>
+</hgroup>
+	<hr />
+
+<p>
+	<span>We are dedicated to the preservation of the hard-earned rights of Medical patients to grow up to (12) state-legal Medicinal plants.</span>
+</p>
+	<hr />
+<p>
+	<span>*** When residing <a href="http://medmj.us/AuthorityToCultivate" title="Click to Review a map of the current Dispensary Cartel locations in Arizona" onclick="javaScript:this.target='_blank';">25 miles extant</a> of a state legalized dispensary ***</span>
+</p>
+	<hr />
+<p>
+	<span>Doesn't that sound a bit strange to you?</span>
+</p>
+	<hr />
+<p>
+	<span>Almost Un-constitutional, isn't it?</span>
+</p>
+    <hr />
+<p>
+	<span>And, with patients in Arizona paying anywhere from $75 to $90 USD for a quarter ounce of medicine ...</span>
+</p>
+	<hr />
+<p>
+	<span>Don't you think it is time that we allow ALL patients the right to grow, stash, and cure their own medicines?</span>
+</p>
+    <hr />
+<!-- Abbreviations now take a class initialism ... No me gusta -->
+<p>
+	<span>We do at the <abbr class="oblique-text" title="Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation">MMINAIL</abbr>.</span>
+</p>
+	<hr />
+
+<p>
+	<span>If you agree, why don't you <a href="https://cash.me/$MMINAIL" title="Click to Donate Spare Cash via Cash Me - Square Up" target="_blank">donate a little spare cash</a>?</span>
+</p>
+	<hr />
+
+<p>
+	<span>Or, a little of your <a href='https://github.com/MMINAIL/mminail.github.io' title='Click To Fork the MMINAIL Central Working Repo (CWR) at GitHub' target='_blank'>coding time</a>?</span>
+</p>
+	<hr />
+
+<p>
+	<span>Or,</span>
+	<span><a href="https://medmj.us/AzSenatorsUnite" title="Click to Contact and Email Your Arizona State Senators and Congressional Representatives (Two) Today!" target="_blank">contact</a></span>
+	<span>your favorite</span>
+	<span>Arizona State Senators and Congressional Representatives ie.) Congressmen or Congresswomen today!</span>
+</p>
+	<hr />
+
+<p>
+	<span>You'll be glad you did ... and, we'll keep the social advocacy rolling for you.</span>
+</p>
+	<hr />
+<p>
+	<span>Both at the State Capitol in Phoenix and also over the Internet!</span>
+</p>
+	<hr />
+<p>
+	<span>Thank you for your donation.</span>
+</p>
+	<hr />
+
+<hgroup class='text-left'>
+	<h4>No Warranty</h4>
+</hgroup>
+	<hr />
+
+<p>
+	<span><b>Disclaimer</b>.</span>
+	<span>The author of this website has made every effort to ensure the accuracy of the information herein.</span>
+</p>
+
+<p>
+	<span>However, the information contained in this website, and in its pages, is offered to the public without any warranty expressed or implied.</span>
+</p>
+
+<p>
+	<span>Therefore, the author of this website, and by extension its pages and content cannot be held liable for any damages that may be caused indirectly or directly by the software instructions or tutorials contained in the pages of this website.</span>
+</p>
+
+<p>
+	<span>For further review, please see the <a href="../pages/license.htm" title="Click To Review The License Page of this Website" target="_self">License</a> page of this website and/or the <a href="../pages/privacy-policy.htm" title="Click To Review The Privacy Policy Page of this Website" target="_self">Privacy Policy</a> page of this website to clarify.</span>
+</p>
+	<hr />
+
+<hgroup class='text-left'>
+	<h4>Reproduction In Part</h4>
+</hgroup>
+	<hr />
+
+<p>
+	<span>Most authors will allow the reproduction of their works in part when the case of brief quotations embodied in critical articles or reviews is addressed.</span>
+</p>
+	
+<p>
+	<span>Therefore, please remember to provide a <a href="https://mminail.github.io" title="Click to Visit the current Home Page of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation" target="_blank">Link-back</a> to the original author, or to the publisher of the original publication when citing.</span>
+</p>
+
+<p>
+	<span>Thank you for your consideration.</span>
+</p>
+	<hr />
+
+<p>
+	<span class="script-text">The Management</span>
+</p>
+
+<picture>
+	<a href='https://mminail.github.io' title='Click To Review the Home page of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation' target='_blank'>
+	<img class="img-responsive img-circle" src="../images/svg/MMINAIL-Logo-Badge-Original-Registered-Transparent-320-x-320.svg" alt="The USPTO Registered Logo Badge of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation" /></a>
+</picture>
+	<hr />
+	
+<script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "cannabuds-2011-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Kindle Picks";
+amzn_assoc_linkid = "b86c06f5ac9af36ff02a0f5b51dd2481";
+amzn_assoc_asins = "B018T075DC,B00U3FPN4U,B018Y23MNM,B013TMNKAW";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+	<hr />
+	
+<!-- <div class="alignleft">
+     <script type="text/javascript">
+       	amzn_assoc_ad_type = "banner";
+	amzn_assoc_marketplace = "amazon";
+	amzn_assoc_region = "US";
+	amzn_assoc_placement = "assoc_banner_placement_default";
+	amzn_assoc_campaigns = "primegift";
+	amzn_assoc_banner_type = "category";
+	amzn_assoc_p = "14";
+	amzn_assoc_isresponsive = "false";
+	amzn_assoc_banner_id = "0ZWKW7ZFNM91W64BCX02";
+	amzn_assoc_width = "160";
+	amzn_assoc_height = "600";
+	amzn_assoc_tracking_id = "cannabuds-2011-20";
+	amzn_assoc_linkid = "d6880a546a49f28fd9366a38443441fd";
+     </script>
+     <script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1"></script>
+</div> -->
+	</aside>
+
+</nav>
+</aside>
+
+	<!-- Splitting the <h1> tag 50/50 Large/Small -->
+	<h1 class="visible-xs visible-sm visible-md visible-lg">Carbon Free Footprint Project<br />
+	<small class="forest-green-text">Central Live Repository</small></h1>
+
+</header>
+
+<!-- <div class="container-fluid"> -->
+<!-- <div class="row-fluid"> -->
+
+<!-- <div class="container"> -->
+<!-- <div class="panel panel-primary panel-padding"> -->
+	
+<article class="main-article">
+
+	<p>##=====================
+##Carbon Free Footprint
+##=====================</p>
+
+<p>###Electric Watt</p>
+
+<p><strong>Issue</strong>. What is an Electric <strong>Watt</strong>?</p>
+
+<p><strong>Rule</strong> (1) <strong>Watt</strong> (W) = 1 joule per second;</p>
+
+<p>A <strong>Watt</strong> (W) then is the rate of electron <strong>Power Flow</strong> over a line.</p>
+
+<p>For example … (2) <strong>Watt</strong>(s) would equal a <strong>Power Flow</strong> of 2 joules per second.</p>
+
+<p><strong>Analysis</strong>. A 400 <strong>Watt</strong> (W) High-Intensity-Discharge (HID) lamp requires a <strong>Power Flow</strong> of 400 joules per second.</p>
+
+<p>Or, 400 <strong>Watt</strong>(s) (W) of power to operate efficiently.</p>
+
+<p>And, a 125 <strong>Watt</strong> (W) Compact Fluorescent Lamp (CFL) requires 125 joules per second of <strong>Power Flow</strong>.</p>
+
+<p>Or, 125 <strong>Watt</strong>(s) (W) of power to operate efficiently.</p>
+
+<p>These and the fans, timer, ballast, etc. are the main electrical components of the <strong>Dual Chamber BC Northern Lights Bloom Machine Grow Box</strong>.</p>
+
+<p>##======================</p>
+
+<p>###Electric kilo Watt</p>
+
+<p><strong>Issue</strong>. What is an Electric <strong>kilo Watt (kW)</strong>?</p>
+
+<p><strong>Rule</strong>. (1) Electric <strong>kilo Watt (kW)</strong> holds the same relationship as (1) kilo Gram …</p>
+
+<p>Namely, a one-thousand (1000) <strong>Watt</strong>(s) (W) or 1000 joules per second in electron <strong>Power Flow</strong>.</p>
+
+<p>##====================== </p>
+
+<p>###Electric kilo Watt hour</p>
+
+<p><strong>Issue</strong>. What is an Electric <strong>kilo Watt hour</strong>?</p>
+
+<p><strong>Rule</strong>. (1) Electric <strong>kilo Watt hour</strong> (kWh) = 1,000 <strong>Watt</strong>(s) (W) of electron <strong>Power Flow</strong> for one-hour at the rate of 1000 joules per second</p>
+
+<p>##======================</p>
+
+<p>###Utility Company</p>
+
+<p><strong>Issue</strong>. What does the <strong>Utility Company</strong> charge for (1) Electric <strong>kilo Watt hour (kWh)</strong> of consumption?</p>
+
+<p><strong>Rule</strong>. The <strong>Utility Company</strong> in Phoenix ( Arizona Power Supply or APS ) charges a flat rate of $0.12 per <strong>(kWh)</strong> for residential customers.</p>
+
+<p>##======================</p>
+
+<p>###Solar Panels </p>
+
+<p><strong>Rule</strong>. Solar Panels are rated by the number of estimated <strong>Watt</strong>(s) (W) of <strong>Direct Current (DC)</strong> …</p>
+
+<p>Or, direct electron <strong>Power Flow</strong> each panel can produce from the sun at peak daytime.</p>
+
+<p>For example, a Solar Panel that is rated at 250 <strong>Watt</strong>(s) (W) of <strong>Power Flow</strong> is able to induce a <strong>Direct Current (DC)</strong> of …</p>
+
+<p>250 joules per second from the sun at peak daytime.</p>
+
+<p>Each Solar Panel, however, must be fitted with a Micro-inverter(MI) to take that <strong>Direct Current (DC)</strong> electron <strong>Power Flow</strong> …</p>
+
+<p>And, convert it to the household type of current the <strong>Dual Chamber BC Northern Lights Bloom Machine Grow Box</strong> works best at.</p>
+
+<p>Namely, the same type of current that powers your electric toaster … <strong>Alternating Current (AC)</strong>.</p>
+
+<p>In the process of conversion, however, the electron <strong>Power Flow</strong> diminishes somewhat due the amount of energy tapped by the <strong>Micro-inverters (MI)</strong>.</p>
+
+<p>What follows below is a Territorial Solar Rating based on that reduced ( now converted ) <strong>Alternating Current (AC)</strong> electron <strong>Power Flow</strong>.</p>
+
+<p>##======================</p>
+
+<p>###Territorial Solar Rating</p>
+
+<p><strong>Rule</strong>. The Phoenix, Arizona metro region resides in the 2nd highest potential Solar Input Region (SIP) of the United States.</p>
+
+<p>Las Vegas, Nevada ( located in the Mohave Desert ) is ##1.</p>
+
+<p><strong>Analysis</strong>. Take the regional rating of the average annual expected <strong>Direct Current (DC)</strong> output of a 1 kilo Watt (kW) rated Solar Installation …</p>
+
+<p>( Expressed in kilo <strong>Watt</strong> hours (kWh) of electron <strong>Power Flow</strong> for the region ) …</p>
+
+<p>( 2000 for Phoenix );</p>
+
+<p>( 2100 for Las Vegas );</p>
+
+<p>And, now multiply that regional rating by the <strong>Inversion Factor (IF)</strong> of 0.78 …</p>
+
+<p>The result of the above calculation is ( 1560 for Phoenix ) of now usable <strong>Alternating Current (AC)</strong> expressed in kilo <strong>Watt</strong> hours (kWh),</p>
+
+<p>So, the approximate amount of <strong>Direct Current (DC)</strong> electricity converted to usable <strong>Alternating Current (AC)</strong> in kilo <strong>Watt</strong> hours (kWh) …</p>
+
+<p>That you can expect to generate in one (1) year’s time using a 1 kilo <strong>Watt</strong> (kW) rated Solar Installation is ( 1560 for Phoenix ).</p>
+
+<p>##======================</p>
+
+<p>###Dual Chamber BC Northern Lights Bloom Machine Grow Box</p>
+
+<p><strong>Issue</strong>. What is the power consumption of a <strong>Dual Chamber BC Northern Lights Bloom Machine Grow Box</strong></p>
+
+<p><strong>Rule</strong>. The <strong>Dual Chamber BC Northern Lights Bloom Machine Grow Box</strong> consumes approx. ( 8923 ) kilo <strong>Watt</strong> hours (kWh) of electron <strong>Power Flow</strong> every (24) hours.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Electrical Component</strong></th>
+      <th><strong>Rated Power Draw (W)</strong></th>
+      <th><strong>Hours On (hr)</strong></th>
+      <th><strong>Usage per day (Watt-hours)</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>400w HID Flowering Bulb</td>
+      <td>400 (W)</td>
+      <td>12</td>
+      <td>4800 Watt-hours</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>24w CO2 Period Input Fan</td>
+      <td>24 (W)</td>
+      <td>12</td>
+      <td>288 Watt-hours</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>125w CFL Vegetation Bulb</td>
+      <td>125 (W)</td>
+      <td>18</td>
+      <td>2250 Watt-hours</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>18w Air Pump</td>
+      <td>18 (W)</td>
+      <td>24</td>
+      <td>432 Watt-hours</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>24w Exhaust Fan</td>
+      <td>24 (W)</td>
+      <td>24</td>
+      <td>576 Watt-hours</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>24w Bulb Circulation Fan(s) x 2</td>
+      <td>48 (W)</td>
+      <td>12</td>
+      <td>576 Watt-hours</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>4w Water Pump</td>
+      <td>4 (W)</td>
+      <td>2/10th</td>
+      <td>0.80 Watt-hours</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>##======================
+<strong>Total Usage Per Day (Watt-hours) ……………………………………………………. 8923 Watt-hours</strong>
+##======================
+<strong>Total Usage Per Day (kWh) ………………………………………………………….. 8.923 kilo Watt hours (kWh)</strong>
+##======================									
+<strong>Cost Per kilo Watt hour ……………………………………………………………. 12 cents</strong>
+##======================
+<strong>Daily Cost ( 8.923 x 12 cents ) ………………………………………………………$1.07</strong>
+##======================</p>
+
+<p><strong>Analysis</strong>. If you run your <strong>Dual Chamber BC Northern Light Bloom Machine Grow Box</strong> continuously on schedule every day of the year …</p>
+
+<p>Twelve (12) hours of <strong>Alternating Current (AC)</strong> electron flow for the <strong>Flowering Chamber</strong> accompanied by a simultaneous …</p>
+
+<p>(18) hours of <strong>Alternating Current (AC)</strong> electron flow for the <strong>Vegetation Chamber</strong> …</p>
+
+<p>Plus, all of the other incidental fans, pumps, digital timers, internal ambient air sensors, and digital internal atmospheric controls …</p>
+
+<p>Then, your “Grow” will consume approx. ( 365 x 8.923 ) kilo <strong>Watt</strong> hours (kWh) of <strong>Alternating Current (AC)</strong> electron <strong>Power Flow</strong> annually.</p>
+
+<p>Or, ( 3,256,895 ) <strong>Watt-hours</strong> when operating the <strong>Dual Chamber BC Northern Lights Bloom Machine Grow Box</strong> “full blast” …</p>
+
+<p>Over the course of the entire year.</p>
+
+<p>Converting the above result to (kW) …</p>
+
+<p>In order to successfully establish a “Carbon Free Footprint” or “Zero Carbon Footprint” (ZCF) to power your <strong>Dual Chamber BC Northern Lights Bloom Machine Grow Box</strong> “full blast” …</p>
+
+<p>Over the course of the entire year …</p>
+
+<p>Requires a ( 3257 / 1560 ) kilo <strong>Watt</strong> (kW) rated system of Solar panels.</p>
+
+<p>This corresponds to a ( 2.10 - 3.00 ) kilo <strong>Watt</strong> (kW) rated system ( array ) of Solar panels.</p>
+
+<p>##======================</p>
+
+<p>###Do The Math</p>
+
+<blockquote>
+  <p>350 <strong>Watt</strong> (W) rated Solar panels ( 17% Efficiency Rating )</p>
+</blockquote>
+
+<blockquote>
+  <p>6.29 Exposure Factor x 2.10 kW System = 13.209 (kWh) per day;</p>
+</blockquote>
+
+<blockquote>
+  <p>350w Solar Panel ( 0.35 kWh ) x 6.29 Exposure Factor = 2.2015 kWh per day</p>
+</blockquote>
+
+<blockquote>
+  <p>13.209 / 2.2015 = Six (6) 350w Solar Panels</p>
+</blockquote>
+
+<p>##======================</p>
+
+<p>###Break It Down</p>
+
+<blockquote>
+  <p>So, to break this down into simple math that you can do:</p>
+</blockquote>
+
+<blockquote>
+  <p>AC rating = (kWh) per day / Exposure Factor</p>
+</blockquote>
+
+<blockquote>
+  <p>AC rating = 8.923 / 6.29 = 1.42 (kW)</p>
+</blockquote>
+
+<blockquote>
+  <p>DC rating = AC rating / Inversion Factor (.78)</p>
+</blockquote>
+
+<blockquote>
+  <p>DC rating = 1.42 (kW) / .78 = 1.82 (kW)</p>
+</blockquote>
+
+<blockquote>
+  <p>Number of panels = DC rating (kW) x 1000 / Panel Rating (w)</p>
+</blockquote>
+
+<blockquote>
+  <p>Number of panels = 1.82 (kW) x 1000  / 350w</p>
+</blockquote>
+
+<blockquote>
+  <p>Number of panels = 1820w / 350w</p>
+</blockquote>
+
+<blockquote>
+  <p>Number of panels = 5.20, or a 3 x 2 Solar panel System ( array )</p>
+</blockquote>
+
+<blockquote>
+  <p>So, for example … a 2.10 (kW) System of Solar panels ( array ) = 2100 Watts …</p>
+</blockquote>
+
+<blockquote>
+  <p>And, a 350 watt panel = .350 (kW)</p>
+</blockquote>
+
+<p>##======================</p>
+
+<p><strong>Conclusion</strong>. Therefore, 2.10 (kW) x 1000 / 350 watt Solar panel =</p>
+
+<blockquote>
+  <p>2100 / 350 = 6 Solar Panels are required to generate ( Complete with individual accompanying Micro-Inverters (MI) … )</p>
+</blockquote>
+
+<p><strong>Given</strong>. The Sunmodule 350w XL Mono Solar Panel maufactured by Solar World carries an above benchmark 17.54% Efficiency Rating …</p>
+
+<blockquote>
+  <p>at a price well below $1 per rated production Watt.</p>
+</blockquote>
+
+<blockquote>
+  <p>Check: (6) Solar Panels x 350w = 2100 Watts = 2.1 (kW) rated system of Solar panels ( array )</p>
+</blockquote>
+
+<p>##======================</p>
+
+<p>###Weight of Solar Panels</p>
+
+<p><strong>Issue</strong>. How many pounds will six (6) 350 <strong>Watt</strong> (W) rated Solar panels ( 17% Efficiency Rating ) weigh?</p>
+
+<p><strong>Given</strong>. Six (6) Solar panels Are needed to to establish a system ( array ) output equal to a ( 2.10 - 3.00 ) kilo <strong>Watt</strong> (kW) rated system?</p>
+
+<p><strong>Analysis</strong>. Each Sunmodule 350w XL Mono Solar Panel weighs in at 47.6 pounds.</p>
+
+<p><strong>Concluion</strong>. Therefore, a 2 x 3 six (6) Solar panel array will weigh in at approx. 285 pounds.</p>
+
+<p>##======================</p>
+
+<p>###Cost of Solar Panels</p>
+
+<p><strong>Issue</strong>. What is the cost per Array?</p>
+
+<p><strong>Rules</strong>. Each Sunmodule 350w XL Mono Solar Panel retails for approx. $275 USD ( less than $1 per rated production <strong>Watt</strong> )</p>
+
+<p><strong>Analysis</strong>. To configure the 4 x 8 array of Solar Panels shown in the example photo requires (32) panels at a cost of $275 each, or $8,800 USD.</p>
+
+<p><img src="images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png" alt="8 x 4 Solar Panel Array With Dual Axis Tracking" /></p>
+
+<p>Plus, the cost of the Micro-Inverters (MI), the Dual Axis Tracking mechanism, the mount, and the pedastal.</p>
+
+<p>##======================</p>
+
+<p>###Solve The Problem</p>
+
+<p>To build the required 2.10 - 3.00 kW rated Solar panel system ( array ) given the annual expected draw of ( 3,256,895 ) <strong>Watt-hours</strong> …</p>
+
+<p>Requires the purchase of ( 2.10 x 2000 ) or, the size of the required system multiplied by the expected <strong>Direct Current (DC)</strong> expressed in …</p>
+
+<p>kilo Watts (kW) ) / divided by the rating in <strong>Watts</strong> (W) of the solar panel, or 350.</p>
+
+<p>4200 / 350 = 12 Solar panels rated at 350w with a 17% efficency rating are required …</p>
+
+<p>To configure the 3 x 4 array of Solar Panels shown in this (12) panel example at a cost of $275 each, or $3,300 USD.</p>
+
+<p>Each 350w Solar panel is rated to produce a 350 kilo Watt (kW) stream of <strong>Direct Current (DC)</strong> <strong>Power Flow</strong> at the high point of the day.</p>
+
+<p>Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Array ) is expected to produce …</p>
+
+<p>2000 (kW) of <strong>Direct Current (DC)</strong> <strong>Power Flow</strong> anually.</p>
+
+<p>##======================</p>
+
+<p>###Quoting Text in Blocks ( Blockquote ) Using Git Hub Flavored Markdown</p>
+
+<blockquote>
+  <p>When quoting text in blocks ( Blockquote ) using GitHub Flavored Markdown (.md) …</p>
+</blockquote>
+
+<blockquote>
+  <p>Simply place a “greater than” symbol in front of your 2nd line of text, as follows:</p>
+</blockquote>
+
+<p>&gt;As you can see, the usage of the “greater than” symbol in this case yields an indented 2nd line of text with a corresponding “thick pipe”.</p>
+
+<p>###Indented 2nd Line of Text</p>
+
+<blockquote>
+  <p>… indented 2nd line of text</p>
+</blockquote>
+
+<p>##======================</p>
+
+<p>###Enabling Hyperlinks</p>
+
+<blockquote>
+  <p>When enabling hyperlinks using GitHub Flavored Markdown (.md) …</p>
+</blockquote>
+
+<blockquote>
+  <p>Simply place a “bracket” symbol [ label part ] in front of ( and, at the end of ) the label part of your hyperlink.</p>
+</blockquote>
+
+<blockquote>
+  <p>Then, encircle the URL with “parenthesis”, ( URL ) as follows:</p>
+</blockquote>
+
+<p>###Example</p>
+
+<blockquote>
+  <p>Copyright ©2016 [The Medical Marijuana Initiative of North America - International Limited](https://cannabuds.us/). All rights reserved.</p>
+</blockquote>
+
+<p>###Result</p>
+
+<blockquote>
+  <p>Copyright ©2016 <a href="https://cannabuds.us/">The Medical Marijuana Initiative of North America - International Limited</a>. All rights reserved.</p>
+</blockquote>
+
+<p>###Example</p>
+
+<blockquote>
+  <p>This Webpage is being hosted via [GitHub Pages](https://pages.github.com/).</p>
+</blockquote>
+
+<p>###Result</p>
+
+<blockquote>
+  <p>This Webpage is being hosted via <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+</blockquote>
+
+<p>##======================</p>
+
+<p>###Enabling Image URLs</p>
+
+<blockquote>
+  <p>When enabling Image URLs using GitHub Flavored Markdown (.md) …</p>
+</blockquote>
+
+<blockquote>
+  <p>Simply place a “bracket” symbol in front of ( and, at the end of ) the ‘Alt text’ part of your Image URL.</p>
+</blockquote>
+
+<blockquote>
+  <p>Then, encircle the URL with “parenthesis”, as follows:</p>
+</blockquote>
+
+<blockquote>
+  <p>[8 x 4 Solar Panel Array With Dual Axis Tracking](images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)</p>
+</blockquote>
+
+<blockquote>
+  <p>Be sure to to place the ‘images’ subdirectory that holds the actual image file (.png) under the same subdirectory that houses your document file (.md)</p>
+</blockquote>
+
+<blockquote>
+  <p>Finally, to enable the fetching and rendering of your subect image, place an exclamation point ‘!’ at the beginning of your image statement, as follows:</p>
+</blockquote>
+
+<blockquote>
+  <p>![8 x 4 Solar Panel Array With Dual Axis Tracking](images/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)</p>
+</blockquote>
+
+<p>##======================</p>
+
+<p>###Stand Alone URLs</p>
+
+<blockquote>
+  <p>When enabling <strong>Stand Alone URLs</strong> using GitHub Flavored Markdown (.md) …</p>
+</blockquote>
+
+<blockquote>
+  <p>Simply type the URL as a Stand Alone URL, as follows:</p>
+</blockquote>
+
+<blockquote>
+  <p>C=&gt; https://medmj.us/SolarPowerYes</p>
+</blockquote>
+
+<blockquote>
+  <p>The Git Hub Markdown interpreter will automatically recognize a properly typed URL.</p>
+</blockquote>
+
+<p>##======================</p>
+
+<p>###Emphasizing Text</p>
+
+<blockquote>
+  <p>When <strong>emphasizing</strong> text using GitHub Flavored Markdown (.md) …</p>
+</blockquote>
+
+<blockquote>
+  <p>Simply place two (<strong>) asterisk symbols in front of, and in back of the text you wish to **emphasize</strong>.</p>
+</blockquote>
+
+<p>##======================</p>
+
+<p>###Creating Headers</p>
+
+<blockquote>
+  <p>When creating headers using GitHub Flavored Markdown (.md) …</p>
+</blockquote>
+
+<blockquote>
+  <p>Simply place one (#), two (##), or three (###) sharp symbols in front of the text you wish to emphasize.</p>
+</blockquote>
+
+<p>##======================</p>
+
+<p>###Page Footer</p>
+
+<blockquote>
+  <p>Copyright ©2016 <a href="https://cannabuds.us/">The Medical Marijuana Initiative of North America - International Limited</a>. All rights reserved.</p>
+</blockquote>
+
+<blockquote>
+  <p>This Webpage is being hosted via <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+</blockquote>
+
+<p>##======================</p>
+
+
+</article>
+</div>
+
+<footer class="site-footer center-block">
+<!-- <footer class="panel-footer"> -->
+
+<hgroup>
+<!-- <hgroup class="panel-body"> -->
+	<h2 class="visible-xs visible-sm visible-md visible-lg"></h2>
+</hgroup>
+
+<p>
+	<span>Powered with</span>
+	<a href="https://www.glyphicons.com/" title="Click to Review Glyphicons" target="_blank">glyphicons<br /><br />	
+	<i class="icon-large icon-snowflake"></i></a>
+</p>
+
+</footer>
+
+<!-- Place all Javascript Library packages north of the </body> closing tag and after the closing site-footer </footer> tag in order of execution -->
+
+<!-- Comment Out: Jquery Library remote script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+
+<!-- Comment Out: Jquery Library Local script 
+<script src="../js/jquery.min.js"></script> -->
+
+<!-- Comment Out: Jquery Mobile Library remote standard script 
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+
+<!-- Comment Out: Jquery Mobile Library remote secure script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script> 
+
+<!-- Comment Out: Jquery Mobile Library Local script 
+<script src="../js/jquery.mobile-1.4.5.min.js"></script> -->
+
+<!-- Comment Out: Jquery Cookie Library remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: jQuery Cookie Library Local script
+<script src="../js/jquery.cookie.js"></script> -->
+
+<!-- Comment Out: jQuery URI Library remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: jQuery URI Library Local script
+<script src="../js/jquery.uri.min.js"></script> -->
+
+<!-- Comment Out: Bootstrap Library remote script -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+
+<!-- Comment Out: Bootstrap Library Local script 
+<script src="../js/bootstrap.min.js"></script> -->
+
+<!-- Comment Out: Angularjs Library remote script 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script> -->
+
+<!-- Comment Out: Angularjs Library Local script 
+<script src="../js/angular.min.js"></script> -->
+
+<!-- Comment Out: Animated Enhanced Libary remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: Animated Enhanced library Local script 
+<script src="../js/jquery.animate-enhanced.js"></script> -->
+
+<!-- Comment Out: Class ( programming ) Libary remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: Class ( programming ) Library Local script 
+<script src="../js/class.js"></script> -->
+
+<!-- Comment Out: Color Libary remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: Color Library Local script 
+<script src="../js/jquery.color.js"></script> -->
+
+<!-- Comment Out: Form Validate Library Remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: Form Validate Library Local script 
+<script src="../js/validate.js"></script> -->
+
+<!-- Comment Out: Head Libary remote script 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/headjs/0.99/head.load.min.js"></script> -->
+
+<!-- Comment Out: Head Library Local script
+<script src="../js/head.js"></script> -->
+
+<!-- Comment Out: Highlighter Libary remote script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script> 
+
+<!-- Comment Out: Highlighter Library Local script 
+<script src="../highlight-js/lib/highlight.js"></script> -->
+
+<!-- Comment Out: Indexed DB Libary remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: Indexed DB library Local script 
+<script src="../js/db.js"></script> -->
+
+<!-- Comment Out: Markdown Library Remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: Markdown Library Local script 
+<script src="../js/markdown.js"></script> -->
+
+<!-- Comment Out: Mask Input Libary remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: Mask Input library Local script 
+<script src="../js/jquery.maskedinput.js"></script> -->
+
+<!-- Comment Out: Modernizr Libary remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: Modernizr library Local script 
+<script src="../js/modernizr.min.js"></script> -->
+
+<!-- Comment Out: Moment ( time ) Libary remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: Moment ( time ) library Local script 
+<script src="../js/moment.min.js"></script> -->
+
+<!-- Comment Out: Prism Library remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: Prism Library Local script
+<script src="../js/prism.js"</script> -->
+
+<!-- Comment Out: QR Code Libary remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: QR Code library Local script 
+<script src="../js/jquery.qrcode-0.2.min.js"></script> -->
+
+<!-- Comment Out: Readmore Libary remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: Readmore Library Local script 
+<script src="../js/readmore.js"></script> -->
+
+<!-- Comment Out: Tether Library remote script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script> 
+
+<!-- Comment Out: Tether Library Local script 
+<script src="../js/tether.min.js"></script> -->
+
+<!-- Comment Out: Underscore ( data ) Libary remote script 
+<script src="#"></script> -->
+
+<!-- Comment Out: Underscore ( data ) Library Local script 
+<script src="../js/underscore.min.js"></script> -->
+
+<!-- Comment Out: Hotjar Tracking Code for https://mminail.github.io 
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:449367,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script> -->
+
+<!-- Comment Out: Dot epub (.mobi) maker -->
+<script type="text/javascript" src="//dotepub.com/p/widget.php?lang=en&amp;img=f"></script>
+
+</body>
+</html>

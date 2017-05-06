@@ -1,0 +1,25 @@
+github: [metadata]
+title: Carbon Free Footprint Project
+tagline: An analysis of carbon emission when operating a BC Northern Lights Bloombox “Full Blast” 24/7
+author:
+    name: Robert Weber, Director
+    email: mminail@icloud.com
+    github: rwebaz
+    twitter: rwebaz
+baseurl: /
+exclude: ['README.md']
+# kramdown y rouge are now the default setting for markdown and highlighter respectively in Jekyll 3.0 and above
+markdown: kramdown
+highlighter: rouge
+kramdown:
+    input: GFM
+    hard_wrap: false
+    syntax_highlighter: rouge
+defaults:
+  -
+    scope:
+      path: "" # By placing an empty string here ALL of the files in the project will be served with the layout "default"
+      type: "pages" # The type attribute limits the files served with the layout "default" to "pages" only
+    values:
+      layout: "default"
+timezone: America/Phoenix
