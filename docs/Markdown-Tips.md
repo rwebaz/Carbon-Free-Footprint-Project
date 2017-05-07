@@ -1,5 +1,4 @@
 ---
-layout: markdown
 title: Markdown Tips | Rwebaz
 ---
 # GFG
@@ -114,7 +113,7 @@ Text that you wish to be emboldened go between ... **Double Asterisks**
 
 Inline images may be displayed using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`, as follows:
 
-![Logo Badge](/ms-icon-70x70.png)
+![Logo Badge](/..ico/ms-icon-70x70.png)
 
 ## Referenced Images
 
@@ -144,7 +143,15 @@ https://mminail.github.io/images/png/dot-epub-button-62-x-20.png
 
 A blockquote may be started with a single right angle bracket ( greater than ) symbol:
 
->This is a blockquote
+>This is a blockquote with an Reference-style image below:
+
+![CFFP Logo Banner][3]
+
+As above in the *Reference Style Hyperlink* section, the citation actually sits below this paragraph of text, hidden in the `nofooter` of this example.
+
+[2]:
+https://rwebaz.github.io/carbon-free-footprint-project/images/svg/ghp-git-hub-pages-medmjorg-carbon-free-footprint-project-flammarion-got-tree-final-banner-1200-x-230.svg
+"The Official CFFP Logo Banner"
 
 ## Anchor Links
 
