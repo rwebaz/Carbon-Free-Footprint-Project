@@ -81,6 +81,32 @@ console.timeEnd(programTimer,"Square It Time");
 <span>Keep a-track of your coding time.</span>
 </pre>
 
+<hgroup class='text-left'>
+	<h4>List of Git Hub Users</h4>
+</hgroup>
+	<hr class='green-groove' />
+
+<pre class='flex-box'>
+<p>
+<span>From the ...</span>
+</p>
+{% highlight html %}
+<ul>
+{% for member in site.data.members %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+{% endhighlight %}
+<p>
+<span>To the ...</span>
+</p>
+</pre>
+<hr class='green-groove' />
+
 <p>
 	<span lang="es" title="Sp. 'For Finish'">Finito!</span>&nbsp;...&nbsp;<i class="icon-large icon-flower"></i>
 </p>
@@ -100,6 +126,25 @@ console.timeEnd(programTimer,"Square It Time");
 	<img class="img-responsive img-circle" src="../images/svg/MMINAIL-Logo-Badge-Original-Registered-Transparent-320-x-320.svg" alt="Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation USPTO Registered Logo Badge" /></a>
 </picture>
 	<br />
+
+<hgroup class='text-left'>
+	<h4>List of Image Assets</h4>
+</hgroup>
+	<hr class='green-groove' />
+
+<pre class='flex-box'>
+<p>
+<span>From the ...</span>
+</p>
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
+<p>
+<span>To the ...</span>
+</p>
+</pre>
+<hr class='green-groove' />
 
 <footer class="page-footer center-block">
 	<br />
