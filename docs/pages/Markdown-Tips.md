@@ -150,7 +150,7 @@ A blockquote may be started with a single right angle bracket ( greater than ) s
 As above in the *Reference Style Hyperlink* section, the citation actually sits below this paragraph of text, hidden in the `nofooter` of this example.
 
 [2]:
-https://rwebaz.github.io/carbon-free-footprint-project/images/svg/ghp-git-hub-pages-medmjorg-carbon-free-footprint-project-flammarion-got-tree-final-banner-1200-x-230.svg
+https://rwebaz.github.io/carbon-free-footprint-project/docs/assets/img/svg/ghp-git-hub-pages-medmjorg-carbon-free-footprint-project-flammarion-got-tree-final-banner-1200-x-230.svg
 "The Official CFFP Logo Banner"
 
 ## Anchor Links
@@ -182,5 +182,24 @@ Simple ... Use a double set of enveloping tildes!
 As follows,
 
 ~~Cross Dis Sh't~~ ... out!
+
+## Listing Image Assets
+
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
+
+## List of Git Hub Users
+
+<ul>
+{% for member in site.data.members %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
 ## More To Come
