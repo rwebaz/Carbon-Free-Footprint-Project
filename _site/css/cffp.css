@@ -95,7 +95,7 @@ a[href^="http:"] {
     padding-top: .25em;
     /* color: black; */
     color: #000531;
-    background: rgb(155,155,204) url("../images/sw-solar-world-eight-by-four-32-panel-array-w-dual-axis-tracking-y-top-blue-text-500-x-230.png") no-repeat; /* center center */
+    background: rgb(155,155,204) url("../images/svg/ghp-git-hub-pages-medmjorg-carbon-free-footprint-project-flammarion-got-tree-final-banner-1200-x-230.svg") no-repeat; /* center center */
     background-size: cover; 
     /* background-size: contain; */
 }
@@ -121,7 +121,8 @@ h2 {
 }
 
 h3 {
-    font-size: medium;
+    /* font-size: medium; */
+    font-size: 24pt;
 }
 
 h4 {
@@ -537,6 +538,10 @@ h2 {
     font-size: large;
     }
 
+h3 {
+    font-size: 20px;
+    }
+
 article.main-article {
     width: calc(80% - 0px);
     }
@@ -578,6 +583,10 @@ h2 {
     font-size: large;
     }
 
+h3 {
+    font-size: 18px;
+    }
+
 article.main-article {
     width: calc(70% - 0px);
     }
@@ -616,6 +625,14 @@ h1 {
     /* max-width: 180px; */
     font-size: x-large;
     /* margin-left: 250px; */
+    }
+
+h2 {
+    font-size: large;
+    }
+
+h3 {
+    font-size: 16px;
     }
 
 article.main-article {
@@ -662,6 +679,10 @@ h1 {
     /* max-height: 1px; */
     font-size: large;
     /* margin-top: 100 px; */
+    }
+
+h2 {
+    font-size: large;
     }
 
 h3 {
