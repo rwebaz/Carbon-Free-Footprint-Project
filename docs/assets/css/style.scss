@@ -2,3 +2,25 @@
 ---
 
 @import "{{ site.theme }}";
+
+/* Imgage Zoom-out From thumb */
+.icon-thumb {
+    width: 25px;
+    height: auto;
+}
+
+/* The Adjacent Sibling */
+.icon-zoom {
+    position: absolute;
+    width: 0px;
+    -webkit-transition: width 0.3s linear 0s;
+    transition: width 0.3s linear 0s;
+    z-index: 5;
+}
+
+/* Where the "plus" sign represents the adjacent sibling selector in Css3 */
+.icon-thumb:hover + .icon-zoom {
+    width: 100px;
+}
+
+/* End Imgage Zoom-out From thumb */
