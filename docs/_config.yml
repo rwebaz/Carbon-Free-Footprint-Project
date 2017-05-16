@@ -7,7 +7,7 @@ author:
     email: "mminail@icloud.com"
     github: "mminail"
     twitter: "mminail"
-baseurl: "/"
+baseurl: "/docs"
 exclude: ['README.md']
 markdown: kramdown
 highlighter: rouge
@@ -27,7 +27,7 @@ defaults:
       path: "" 
       type: "pages"
     values:
-      layout: "default"
+      layout: "alt-default"
       author: "Robert Weber, Director"
 collections:
   collection_CFFP:
@@ -43,6 +43,6 @@ defaults:
       path: "docs/pages"
       type: "pages"
     values:
-      layout: "default" 
+      layout: "alt-default" 
       author: "Robert Weber, Director"
 github: [metadata]
