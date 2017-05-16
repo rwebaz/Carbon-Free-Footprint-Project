@@ -2,6 +2,10 @@
 #
 # See http://help.github.com/ignore-files/ for more about ignoring files
 #
+# Jekyll Files
+_site/
+.jekyll-metadata
+#
 # User-specific files
 *.suo
 *.user
@@ -302,6 +306,3 @@ testem.log
 /captures
 .externalNativeBuild
 #
-
-
-
