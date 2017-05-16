@@ -1,5 +1,6 @@
 ---
-title: Markdown Tips | Rwebaz
+layout: alt-default
+title: Markdown Tips | CFFP
 ---
 # GFG
 
@@ -69,19 +70,21 @@ The VSC default colors for a code block are ...
 
 ## Triple Backticks
 
-Rule. Triple Back-ticks in GFM will create an multi-line 'Fenced' code block.
+**Rule**. Triple Back-ticks ```.`.`.`.``` in GFM will create an multi-line, or "Fenced" code block.
 
-Note. After the first set of triple backticks ` ``` ` place a language qualifier ie.) html, as follows:
+Always remember to place a language qualifier `html` after the first set of triple backticks when highlighting a multi-line block of code in a `(.md)` page.
 
-` ```html`
-
-Por ejemplo, here is a block of Html
+Por ejemplo, here is a block of Html that has a set of Triple Back-ticks starting the lines both above and below the code block.
 
 ```html
 <h1>Title</h2>
 <p>Lots of code in here ...</p>
 <span>Footer text</span>
 ```
+
+**Note**. The language qualifier `html` has been appended to the first line of Triple Back-ticks immediately 'above' the code block.
+
+Also, similar to the `(.md)` requirement that a blank line follow a Subtitle, the immediately 'below' set of Triple Back-ticks requires a blank line following, as well.
 
 ## Snippet Insertion
 
@@ -107,7 +110,9 @@ Text that you wish to be italicized go between ... *single asterisk*
 
 ## Bold Text
 
-Text that you wish to be emboldened go between ... **Double Asterisks**
+Text that you wish to look emboldened such as a **Note**. Prefix ... Go between a set of double asterisks `**`...`**`, as follows:
+
+**Double Asterisks**
 
 ## Inline Images
 
@@ -159,47 +164,60 @@ Internal anchor links to other pages within the repo require a bracketed [name] 
 
 [Anchor](../Angular/liquid-angular)
 
-## Hard Returns
+## Unstyled Hard Returns
 
-The counterpart in Html `<hr />` may be reproduced in (.md) using triple asterisks, as follows:
+The Unstyled Hard Return counterpart in Html `<hr />` may be reproduced in a `(.md)` page using triple asterisks `***`, as follows:
 
 ***
 
-But, not above or below subtitles.
+But, not above or below Subtitles.
 
-Note. By default, the single hash `#` placed at the beginning of a line n (.md) yields the traditional Html `<h1>Title</h1>` header tag with an auto hard return below.
+**Note**. By default, the single hash `#` placed at the beginning of a line in a `(.md)` page yields the traditional Html `<h1>Title</h1>` header tag with an automatically generated unstyled hard return placed below.
 
 ## Subtitles
 
-Subtitles without a hard return below may be invoked with a set of double hash `##` placed at the beginning of a line yielding the traditional Html `<h2>Title</h2>` header tag.
+Subtitles without a hard return below may be invoked in a `(.md)` page with a set of double hash `##` placed at the beginning of any line thus yielding the traditional Html `<h2>Title</h2>` header tag.
 
 ## Cross Out Text
 
-How do you cross-out text in (.md)?
+How do you cross-out text in a `(.md)` page?
 
-Simple ... Use a double set of enveloping tildes!
-
-As follows,
+Simple ... Prepend ie.) place at the beginning and Append ie.) place at the end, a double set of enveloping tildes `~~...~~~` that surround the targeted text, as follows:
 
 ~~Cross Dis Sh't~~ ... out!
 
 ## Listing Image Assets
 
-{% assign image_files = site.static_files | where: "image", true %}
-{% for myimage in image_files %}
-  {{ myimage.path }}
-{% endfor %}
+Listing the various image assets of your repo require a liquid tag statement placed within a `(.htm)` page, as follows:
+
+```yaml
+{\% assign image_files = site.static_files | where: "image", true \%}
+{\% for myimage in image_files \%}
+  {\{ myimage.path }\}
+{\% endfor \%}
+```
+
+**Note**. Remember to place a language qualifier `yaml` after the first set of triple backticks when highlighting a multi-line block of code in a `(.md)` page.
+
+Here, the author has also placed an escape `\` character where appropriate to neutralize the rendering of the liquid statement. Please remember to remove the escape `\` characters from the liquid statement when going live.
 
 ## List of Git Hub Users
 
+This little combo snippet will render a list of GitHub users associated with your repo, as follows:
+
+
+```html
 <ul>
-{% for member in site.data.members %}
+{\% for member in site.data.members \%}
   <li>
     <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
+      {\{ member.name }\}
     </a>
   </li>
-{% endfor %}
+{\% endfor \%}
 </ul>
+```
 
 ## More To Come
+
+As more snippets are generated or found, expect this list to grow.

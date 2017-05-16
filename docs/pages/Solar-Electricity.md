@@ -1,6 +1,6 @@
 ---
-layout: markdown
-title: Solar Electricity | Rwebaz
+layout: alt-default
+title: Solar Electricity | CFFP
 ---
 ##=====================
 ##Carbon Free Footprint
