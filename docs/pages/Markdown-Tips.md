@@ -28,41 +28,75 @@ To create an ordered list in (.md), begin each list item with the number `1` fol
 1. List Item \#2
 1. List Item \#3
 
-## Anchor Links
+## Inline Anchor Links
 
-Internal anchor links to other pages within the repo require a bracketed [name] followed by an anchor link enclosed in a single set of parenthesis.
+Inline anchor links that point internally to other pages within the repo require a separate bracketed `[page.name]` followed by a relative `/page.url` prepended by the `site.github.url` enveloped in a moustache `{\{...}\}`, and enclosed in a single set of parenthesis `(...)`, as follows:
 
-[Anchor](../Angular/liquid-angular)
+```yaml
+[Home Page]({\{ site.github.url }\}/index)
+```
 
-## Auto Hyperlinks
+**Por ejemplo en vivo**. Just typing along and here comes an inline anchor link! ... Click! ... [Home Page]({{ site.github.url }}/index).
 
-Stand alone "auto" URLs are always enclosed in angle brackets and optionally appended to a bracketed `[name]`, as follows:
+**Note**. To effect an inline anchor link while served relatively at the remote GitHub-Jekyll web server farm, prepend the `/page.url` with the `site.github.url`, as follows:
+
+```yaml
+[Solar Electricity]({\{ site.github.url }\}/pages/Solar-Electricity)
+```
+
+**Live Example**. Another inline anchor link ... [Solar Electricity]({{ site.github.url }}/pages/Solar-Electricity).
+
+**Note**. The author has placed escape `\` characters where appropriate to neutralize the rendering of the liquid statement in the above illustration.
+
+Please remember to remove the escape `\` characters from the liquid statement when going live.
+
+## Stand Alone External Hyperlinks
+
+Inline hyperlinks with bracketed clickable text `[MMINAIL]` may be followed by the `site.url` simply enclosed in a single set of parenthesis `(...)`, as follows:
+
+```markdown
+[MMINAIL](https://mminail.github.io)
+```
+
+**Live Example**: A stand alone, clickable text, external hyperlink ... [MMINAIL](https://mminail.github.io).
+
+## Auto External Hyperlinks
+
+Stand alone "auto" URLs that point to external targets may be enclosed in angle brackets `<...>` and optionally prepended by a bracketed `[external.site.name]`, as follows:
+
+```markdown
+[MMINAIL] <https://mminail.github.io>
+```
+
+**Live Example**: A list item hyperlink
 
 - [MMINAIL] <https://mminail.github.io>
 
-**Note**. All "auto" URLs must start with `https`.
-
-## Inline Hyperlinks
-
-Inline links with bracketed clickable text `[MMINAIL]` may be followed by the `URL` enclosed in a single set of parenthesis `(...)`, as follows:
-
-[MMINAIL](https://mminail.github.io)
-
-**Note**. Inline URLs may also be relative anchors, as follows:
-
-[Home](/index.html)
+**Note**. All external "auto" URLs must start with `https`.
 
 ## Reference Style Hyperlinks
 
-`URL` may also be referenced by an inline bracketed clickable text `[MMINAIL]` followed by a bracketed index number `[1]`, as follows:
+An external `site.url` may also be referenced by an inline bracketed clickable text `[MMINAIL]` followed by a bracketed index number `[1]`, as follows:
 
-The [MMINAIL][1] link in this paragraph is anchored by a citation in the `nofooter` below.
+**Live Example**. The [MMINAIL][1] link in this paragraph is anchored by a citation in the `nofooter` below.
 
-The citation is comprised of the aforementioned bracketed index number `[1]` followed by a colon `:` followed by the raw `URL` of the targeted destination.
+As now revealed ...
 
-The citation actually sits below this third paragraph of text, hidden in the `nofooter` of this example.
+```markdown
+The [MMINAIL][1] link in this paragraph ...
+```
+
+The citation below is comprised of the aforementioned bracketed index number `[1]` followed by a colon `:` followed by the `site.url` of the targeted destination.
+
+**Note**. The citation actually sits below this fifth paragraph of text, hidden in the `nofooter` of this example.
 
 [1]:https://mminail.github.io
+
+But, can now become manifest, as next illustrated ...
+
+```markdown
+[1]:https://mminail.github.io
+```
 
 ## Anchor Links w Site Base URL Using the Optional liquid link tag
 
