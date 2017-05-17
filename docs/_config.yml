@@ -19,7 +19,7 @@ timezone: "America/Phoenix"
 google_analytics: [UA-44765001-8]
 defaults:
   - scope:
-      path: "/docs/assets/img"
+      path: "assets/img"
     values:
       image: "true"
 defaults:
