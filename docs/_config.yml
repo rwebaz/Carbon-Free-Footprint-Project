@@ -7,7 +7,7 @@ author:
     email: "mminail@icloud.com"
     github: "mminail"
     twitter: "mminail"
-baseurl: "/docs"
+baseurl: "/"
 exclude: ['README.md']
 markdown: kramdown
 highlighter: rouge
@@ -40,7 +40,7 @@ defaults:
       layout: "page"
 defaults:
   - scope:
-      path: "docs/pages"
+      path: "/docs/pages"
       type: "pages"
     values:
       layout: "alt-default" 
