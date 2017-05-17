@@ -28,6 +28,12 @@ To create an ordered list in (.md), begin each list item with the number `1` fol
 1. List Item \#2
 1. List Item \#3
 
+## Anchor Links
+
+Internal anchor links to other pages within the repo require a bracketed [name] followed by an anchor link enclosed in a single set of parenthesis.
+
+[Anchor](../Angular/liquid-angular)
+
 ## Auto Hyperlinks
 
 Stand alone "auto" URLs are always enclosed in angle brackets and optionally appended to a bracketed `[name]`, as follows:
@@ -57,6 +63,26 @@ The citation is comprised of the aforementioned bracketed index number `[1]` fol
 The citation actually sits below this third paragraph of text, hidden in the `nofooter` of this example.
 
 [1]:https://mminail.github.io
+
+## Anchor Links w Site Base URL Using the Optional liquid link tag
+
+Internal anchor links may be served locally or remotely using the optional liquid link tag.
+
+Here, the bracketed clickable text `[Solar Electricity]` is followed by a single set of parenthesis `(...)`.
+
+Inside the single set of parenthesis `(...)` is a double set of braces ie.) a 'moustache `{\{...}\}` statement that references the site base URL `site.baseurl` followed by a liquid `{\%...\%}` statement that houses the liquid `link` keyword plus a `space` followed by the relative `page` URL of the targeted page `pages/Solar-Electricity.md`.
+
+Using a Triple-backtick highlighted code block with a language qualifier of yaml to illustrate ... all together now!
+
+```yaml
+[Solar Electricity]({\{ site.baseurl }\}{\% link pages/Solar-Electricity.md \%})
+```
+
+**Note**. The author has also placed escape `\` characters where appropriate to neutralize the rendering of the moustache and liquid statements within the illustrated code block above.
+
+Please remember to remove the escape `\` characters from the liquid and moustache statements when going live, as follows:
+
+[Solar Electricity]({{ site.baseurl }}{% link pages/Solar-Electricity.md %})
 
 ## Single Backticks
 
@@ -157,12 +183,6 @@ As above in the *Reference Style Hyperlink* section, the citation actually sits 
 [2]:
 https://rwebaz.github.io/carbon-free-footprint-project/docs/assets/img/svg/ghp-git-hub-pages-medmjorg-carbon-free-footprint-project-flammarion-got-tree-final-banner-1200-x-230.svg
 "The Official CFFP Logo Banner"
-
-## Anchor Links
-
-Internal anchor links to other pages within the repo require a bracketed [name] followed by an anchor link enclosed in a single set of parenthesis.
-
-[Anchor](../Angular/liquid-angular)
 
 ## Unstyled Hard Returns
 
