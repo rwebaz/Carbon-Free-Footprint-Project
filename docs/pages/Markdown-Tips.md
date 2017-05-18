@@ -30,7 +30,7 @@ To create an ordered list in (.md), begin each list item with the number `1` fol
 
 ## Inline Anchor Links
 
-Inline anchor links that point internally to other pages within the repo require a separate bracketed `[page.name]` followed by a relative `/page.url` prepended by the `site.github.url` enveloped in a moustache `{\{...}\}`, and enclosed in a single set of parenthesis `(...)`, as follows:
+Inline anchor links that point internally to other pages within the repo require a separate bracketed `[page.name]` followed by a relative `/page.url` prepended by the `site.github.url` enveloped in a 'moustache' or liquid variable statement `{\{...}\}`, and enclosed in a single set of parenthesis `(...)`, as follows:
 
 ```yaml
 [Home Page]({\{ site.github.url }\}/index)
@@ -104,7 +104,7 @@ Internal anchor links may be served locally or remotely using the optional liqui
 
 Here, the bracketed clickable text `[Solar Electricity]` is followed by a single set of parenthesis `(...)`.
 
-Inside the single set of parenthesis `(...)` is a double set of braces ie.) a 'moustache `{\{...}\}` statement that references the site base URL `site.baseurl` followed by a liquid `{\%...\%}` statement that houses the liquid `link` keyword plus a `space` followed by the relative `page` URL of the targeted page `pages/Solar-Electricity.md`.
+Inside the single set of parenthesis `(...)` is a double set of braces ie.) a 'moustache' `{\{...}\}` statement that references a liquid variable, in this case ... the site base URL `site.baseurl` followed by another liquid `{\%...\%}` statement that houses the liquid `link` keyword plus a `space` followed by the relative `page` URL of the targeted page `pages/Solar-Electricity.md`.
 
 Using a Triple-backtick highlighted code block with a language qualifier of yaml to illustrate ... all together now!
 
@@ -112,9 +112,9 @@ Using a Triple-backtick highlighted code block with a language qualifier of yaml
 [Solar Electricity]({\{ site.baseurl }\}{\% link pages/Solar-Electricity.md \%})
 ```
 
-**Note**. The author has also placed escape `\` characters where appropriate to neutralize the rendering of the moustache and liquid statements within the illustrated code block above.
+**Note**. The author has also placed escape `\` characters where appropriate to neutralize the rendering of the liquid variable statements within the illustrated code block above.
 
-Please remember to remove the escape `\` characters from the liquid and moustache statements when going live, as follows:
+Please remember to remove the escape `\` characters from the liquid variable statements when going live, as follows:
 
 [Solar Electricity]({{ site.baseurl }}{% link pages/Solar-Electricity.md %})
 

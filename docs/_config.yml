@@ -1,3 +1,4 @@
+github: [metadata]
 theme: jekyll-theme-cayman
 title: "Carbon Free Footprint Project"
 tagline: "An analysis designed to establish a Carbon Free Footprint when operating a BC Northern Lights Bloombox 'Full Blast' 24/7"
@@ -15,6 +16,7 @@ kramdown:
     input: "GFM"
     hard_wrap: "false"
     syntax_highlighter: "rouge"
+    math_engine: mathjax
 timezone: "America/Phoenix"
 google_analytics: [UA-44765001-8]
 defaults:
@@ -45,4 +47,7 @@ defaults:
     values:
       layout: "alt-default" 
       author: "Robert Weber, Director"
-github: [metadata]
+gems:
+   - jekyll-coffeescript
+   - jekyll-paginate
+repository: rwebaz/Carbon-Free-Footprint-Project
