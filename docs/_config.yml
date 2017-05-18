@@ -29,7 +29,7 @@ defaults:
       path: "" 
       type: "pages"
     values:
-      layout: "alt-default"
+      layout: "default"
       author: "Robert Weber, Director"
 collections:
   collection_CFFP:
@@ -45,7 +45,7 @@ defaults:
       path: "/docs/pages"
       type: "pages"
     values:
-      layout: "alt-default" 
+      layout: "default" 
       author: "Robert Weber, Director"
 gems:
    - jekyll-coffeescript

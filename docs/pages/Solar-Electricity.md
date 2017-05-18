@@ -1,5 +1,5 @@
 ---
-layout: alt-default
+layout: default
 title: Solar Electricity | CFFP
 ---
 ##=====================

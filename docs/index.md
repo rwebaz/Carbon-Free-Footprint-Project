@@ -1,4 +1,4 @@
 ---
-layout: alt-default
+layout: default
 title: Home Page | CFFP
 ---
