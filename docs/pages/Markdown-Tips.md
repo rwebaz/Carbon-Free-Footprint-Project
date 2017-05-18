@@ -1,5 +1,5 @@
 ---
-layout: alt-default
+layout: default
 title: Markdown Tips | CFFP
 ---
 # GFG
