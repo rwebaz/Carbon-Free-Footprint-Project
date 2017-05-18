@@ -198,7 +198,10 @@ PLATFORMS
 DEPENDENCIES
   github-markdown
   github-pages
+  jekyll-coffeescript
   jekyll-docs (= 3.4.3)
+  jekyll-gist
+  jekyll-paginate
 
 BUNDLED WITH
    1.14.6
