@@ -1,4 +1,5 @@
 github: [metadata]
+repository: rwebaz/Carbon-Free-Footprint-Project
 theme: jekyll-theme-cayman
 title: "Carbon Free Footprint Project"
 tagline: "An analysis designed to establish a Carbon Free Footprint when operating a BC Northern Lights Bloombox 'Full Blast' 24/7"
@@ -8,7 +9,7 @@ author:
     email: "mminail@icloud.com"
     github: "mminail"
     twitter: "mminail"
-baseurl: "/"
+baseurl: "/docs"
 exclude: ['README.md']
 markdown: kramdown
 highlighter: rouge
@@ -26,10 +27,22 @@ defaults:
       image: "true"
 defaults:
   - scope:
+      path: "assets/ico"
+    values:
+      image: "true"
+defaults:
+  - scope:
       path: "" 
       type: "pages"
     values:
       layout: "default"
+      author: "Robert Weber, Director"
+defaults:
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "default" 
       author: "Robert Weber, Director"
 collections:
   collection_CFFP:
@@ -40,14 +53,4 @@ defaults:
       type: "collection_CFFP"
     values:
       layout: "page"
-defaults:
-  - scope:
-      path: "/docs/pages"
-      type: "pages"
-    values:
-      layout: "default" 
-      author: "Robert Weber, Director"
-gems:
-   - jekyll-coffeescript
-   - jekyll-paginate
-repository: rwebaz/Carbon-Free-Footprint-Project
+      

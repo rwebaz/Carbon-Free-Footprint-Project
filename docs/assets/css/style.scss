@@ -49,3 +49,18 @@
     width: 100px;
 }
 /* End Imgage Zoom-out From thumb */
+
+/* Set the collapsable Responsive Image */
+img {
+    /* min-width: 340px; */
+    /* max-width: 100%; */
+    height: auto;
+    border: 1px solid transparent;
+    /* border: 1px solid red; */
+}
+
+.img-responsive {
+    width: calc(100% - 0px);
+    max-width: 100%;
+    }
+/* End the collapsable Responsive Image */

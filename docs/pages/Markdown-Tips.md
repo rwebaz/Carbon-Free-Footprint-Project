@@ -28,6 +28,36 @@ To create an ordered list in (.md), begin each list item with the number `1` fol
 1. List Item \#2
 1. List Item \#3
 
+## Liquid Link Tags
+
+The liquid `link` tag may be pre-pended by a liquid variable statement `{\{...}\}`, commonly known as a 'moustache'.
+
+**Note**. The author has placed escape `\` characters where appropriate to neutralize the rendering of the "live" liquid statements in this illustration.
+
+Inside the pre-pending 'moustache' or liquid variable statement the object `site` is placed with a reference to the `site baseurl` property via dot notation, as follows:
+
+```yaml
+{\{ site.baseurl }\}
+```
+
+**Note**. The `site baseurl` may be fixed by the user at the underscore config dot yml file, as follows:
+
+```yaml
+baseurl: "/docs"
+```
+
+Next, the `link` tag is built within a separate liquid statement adjacent to and appending the liquid variable statement, as follows:
+
+```yaml
+{\% link pages/Solar-Electricity.md \%\}
+```
+
+Here, the `link` tag followed by a space points to the `pages` Subdirectory where the **GFM** file is housed. Notice the extension, in this case `(.md)` must be included when declaring a liquid `link` tag.
+
+Putting the two liquid statements together "live" ( after removing the escape `\` characters ) we have the following "live" rendition complete with clickable text `[...]` pre-pending all ...
+
+[Solar Electricity]{{ site.baseurl }}{% link pages/Solar-Electricity.md %}
+
 ## Inline Anchor Links
 
 Inline anchor links that point internally to other pages within the repo require a separate bracketed `[page.name]` followed by a relative `/page.url` prepended by the `site.github.url` enveloped in a 'moustache' or liquid variable statement `{\{...}\}`, and enclosed in a single set of parenthesis `(...)`, as follows:
@@ -109,7 +139,7 @@ Inside the single set of parenthesis `(...)` is a double set of braces ie.) a 'm
 Using a Triple-backtick highlighted code block with a language qualifier of yaml to illustrate ... all together now!
 
 ```yaml
-[Solar Electricity]({\{ site.baseurl }\}{\% link pages/Solar-Electricity.md \%})
+[Solar Electricity](\{\{ site.baseurl \}\}\{\% link pages/Solar-Electricity.md \%\})
 ```
 
 **Note**. The author has also placed escape `\` characters where appropriate to neutralize the rendering of the liquid variable statements within the illustrated code block above.
@@ -120,21 +150,47 @@ Please remember to remove the escape `\` characters from the liquid variable sta
 
 ## Single Backticks
 
-Rule. Single Back-ticks in GFM will create an inline code block.
+**Rule**. A single set of Back-ticks \` `...` ` in GitHub Flavored Markdown, or **GFM** will create an inline code block.
 
-The VSC default colors for a code block are ...
+For example, the Visual Studio Code, or **VSC** default colors for a code block may be shown as rendered `<li>`, or line items in an unordered list, as follows:
 
-- `gold color'd text`
+- `gold colored text`
 
 - `dark grey background`
 
+**Note**. The way to render a `<li>` in a `(.md)` page is to use a hyphen symbol `-` as follows:
+
+```markdown
+- `gold colored text`
+
+- `dark grey background`
+```
+
+**Note**. Remember to append a language qualifier to the first set of Triple-backticks when rendering a highlighted code block in **GFM**. Also, be sure to leave a blank line after the second set of Triple-backticks, as well.
+
 ## Triple Backticks
 
-**Rule**. Triple Back-ticks ```.`.`.`.``` in GFM will create an multi-line, or "Fenced" code block.
+**Rule**. A double set of triple Back-ticks ``` in **GFM** will create an multi-line, or "Fenced" highlighted code block.
 
-Always remember to place a language qualifier `html` after the first set of triple backticks when highlighting a multi-line block of code in a `(.md)` page.
+Always remember to place a language qualifier after the first set of triple Back-ticks when highlighting a multi-line block of code in **GFM**.
 
-Por ejemplo, here is a block of Html that has a set of Triple Back-ticks starting the lines both above and below the code block.
+Por ejemplo ( for example ), here is a block of `html` that has a double set of triple Back-ticks.
+
+One set of triple Back-ticks is placed above the start of the highlighted code block, and one set of triple Back-ticks is placed below the highlighted code block.
+
+Notice both the blank line following the second set of triple Back-ticks and the language qualifier `html` appended to the first set of triple Back-ticks, as follows:
+
+```html
+\```html
+<h1>Title text</h2>
+<p>Lots of code in here ...</p>
+<span>Footer text</span>
+\```
+```
+
+**Note**. The author has placed escape `\` characters where appropriate to neutralize the rendering of the liquid statement.
+
+Please remember to remove the escape `\` characters from the liquid statement when going live, as follows:
 
 ```html
 <h1>Title</h2>
@@ -142,23 +198,33 @@ Por ejemplo, here is a block of Html that has a set of Triple Back-ticks startin
 <span>Footer text</span>
 ```
 
-**Note**. The language qualifier `html` has been appended to the first line of Triple Back-ticks immediately 'above' the code block.
+Here, the language qualifier `html` has been appended to the first line of Triple Back-ticks immediately 'above' the code block.
 
-Also, similar to the `(.md)` requirement that a blank line follow a Subtitle, the immediately 'below' set of Triple Back-ticks requires a blank line following, as well.
+Also, similar to the **GFM** requirement that a blank line follow a Subtitle, the immediately 'below' set of triple Back-ticks requires a blank line following it, as well.
 
-## Snippet Insertion
+## Subtitles
 
-Simply select a batch of plain text and open up the Command Palette in VSC ...
+Subtitles without an "auto" unstyled hard return below may be invoked in a `(.md)` page with a set of double hash `##` placed at the beginning of any line thus yielding the traditional Html `<h2>Title</h2>` header tag.
+
+**Note**. A blank line following a Subtitle is required in **GFM**, or a declared unstyled hard return may be used, as well ( followed by the required blank line! )
+
+## Snippet Insertion In Visual Studio Code
+
+To insert a code snippet in Visual Studio Code, or **VSC** simply select and copy a batch of plain text to the clip board and open up the Command Palette in **VSC**, as follows:
+
+```html
+Shortcut to the Command Palette in **VSC**
+```
 
 Next, type `Insert Snippet`.
 
-## Emoji
+## Support for Emoji in VSC
 
-Support for emoji in VSC on a (.md) does not exist:
+Support for emoji in Visual Studio Code, or **VSC** when working on a `(.md)` page does not exist at this time ( May '17).
 
 `@rwebaz:+1:`
 
-Go to Git Hub comments to render Emoji
+Solution. Go to GitHub comments to render Emoji
 
 Format ...
 
@@ -178,7 +244,7 @@ Text that you wish to look emboldened such as a **Note**. Prefix ... Go between 
 
 Inline images may be displayed using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`, as follows:
 
-![Logo Badge](/..ico/ms-icon-70x70.png)
+![Logo Badge](../assets/ico/ms-icon-70x70.png)
 
 ## Referenced Images
 
@@ -206,7 +272,7 @@ https://mminail.github.io/images/png/dot-epub-button-62-x-20.png
 
 ## Blockquote
 
-A blockquote may be started with a single right angle bracket ( greater than ) symbol:
+A blockquote may be started with a single right angle bracket `>`, or greater than `&gt;` symbol &gt; :
 
 >This is a blockquote with an Reference-style image below:
 
@@ -227,10 +293,6 @@ The Unstyled Hard Return counterpart in Html `<hr />` may be reproduced in a `(.
 But, not above or below Subtitles.
 
 **Note**. By default, the single hash `#` placed at the beginning of a line in a `(.md)` page yields the traditional Html `<h1>Title</h1>` header tag with an automatically generated unstyled hard return placed below.
-
-## Subtitles
-
-Subtitles without a hard return below may be invoked in a `(.md)` page with a set of double hash `##` placed at the beginning of any line thus yielding the traditional Html `<h2>Title</h2>` header tag.
 
 ## Cross Out Text
 
@@ -271,6 +333,10 @@ This little combo snippet will render a list of GitHub users associated with you
 {\% endfor \%}
 </ul>
 ```
+
+## Page Path
+
+{{ site.baseurl }}{{ page.path }}
 
 ## More To Come
 
