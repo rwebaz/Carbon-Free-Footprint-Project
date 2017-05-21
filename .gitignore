@@ -4,7 +4,8 @@
 #
 # Jekyll Files
 _site
-# .jekyll-metadata
+.sass-cache
+.jekyll-metadata
 #
 # User-specific files
 *.suo
