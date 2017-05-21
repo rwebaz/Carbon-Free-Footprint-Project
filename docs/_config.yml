@@ -1,3 +1,16 @@
+# Site settings
+#
+# Note. Site settngs are used to personalize your new site.
+# If you look in the accompanyong Html files, you will see the site settings accessed via liquid variabls, as follows:
+# {{ site.title }},
+# {{ site.email }},
+# and so on.
+#
+# You can create any custom liquid variable you would like ...
+# And the custom liquid variable will be accessible in the Html templates ...
+# Via the liquid variable format, as follows:
+# {{ site.myvariable }}
+#
 github: [metadata]
 repository: rwebaz/Carbon-Free-Footprint-Project
 theme: jekyll-theme-cayman
@@ -7,9 +20,10 @@ description: "An analysis designed to establish a Carbon Free Footprint when ope
 author:
     name: "Robert Weber, Director"
     email: "mminail@icloud.com"
-    github: "mminail"
-    twitter: "mminail"
+    github_username: "mminail"
+    twitter_username: "mminail"
 baseurl: "/docs"
+url: "https://rwebaz/github.io/Carbon-Free-Footprint-Project"
 exclude: ['README.md']
 markdown: kramdown
 highlighter: rouge
@@ -53,4 +67,8 @@ defaults:
       type: "collection_CFFP"
     values:
       layout: "page"
-      
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
