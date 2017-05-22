@@ -22,8 +22,9 @@ author:
     email: "mminail@icloud.com"
     github_username: "mminail"
     twitter_username: "mminail"
+# The 'baseurl' is the subpath of your website, e.g. /blog
 baseurl: "/docs"
-url: "https://rwebaz/github.io/Carbon-Free-Footprint-Project"
+url: "rwebaz/github.io"
 exclude: ['README.md']
 markdown: kramdown
 highlighter: rouge
