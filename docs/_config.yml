@@ -12,7 +12,7 @@
 # {{ site.myvariable }}
 #
 # github: [metadata]
-theme: jekyll-theme-cayman
+theme: "jekyll-theme-cayman"
 # repository: rwebaz/Carbon-Free-Footprint-Project
 title: "Carbon Free Footprint Project"
 tagline: "An analysis designed to establish a Carbon Free Footprint when operating a BC Northern Lights Bloombox 'Full Blast' 24/7"
@@ -26,13 +26,13 @@ author:
 baseurl: "/docs"
 url: "rwebaz/github.io"
 exclude: ['README.md']
-markdown: kramdown
-highlighter: rouge
+markdown: "kramdown"
+highlighter: "rouge"
 kramdown:
     input: "GFM"
     hard_wrap: "false"
     syntax_highlighter: "rouge"
-    math_engine: mathjax
+    math_engine: "mathjax"
 timezone: "America/Phoenix"
 google_analytics: [UA-44765001-8]
 defaults:
