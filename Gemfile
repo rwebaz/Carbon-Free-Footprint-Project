@@ -19,7 +19,7 @@ gem 'jekyll-docs', '3.4.3'
 #
 # Note. The default theme for new Jekyll sites is 'minima'.
 # You may change this to anything you like.
-gem "jekyll-theme-cayman", "~> 2.0"
+gem "jekyll-theme-cayman"
 #
 # Note. To upgrade, run `bundle update github-pages` from the command line.
 gem 'github-pages', group: :jekyll_plugins
