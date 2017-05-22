@@ -11,7 +11,7 @@
 # Via the liquid variable format, as follows:
 # {{ site.myvariable }}
 #
-github: [metadata]
+# github: [metadata]
 theme: jekyll-theme-cayman
 repository: rwebaz/Carbon-Free-Footprint-Project
 title: "Carbon Free Footprint Project"
