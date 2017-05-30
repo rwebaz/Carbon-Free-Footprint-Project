@@ -1,6 +1,7 @@
 ---
+title: Solar Electricity
 layout: default
-title: Solar Electricity | CFFP
+navigation_weight: 4
 ---
 ##=====================
 ##Carbon Free Footprint
