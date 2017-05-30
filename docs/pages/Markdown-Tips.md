@@ -1,6 +1,7 @@
 ---
+title: Markdown Tips
 layout: default
-title: Markdown Tips | CFFP
+navigation_weight: 5
 ---
 # GFG
 
