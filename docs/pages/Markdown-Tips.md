@@ -83,13 +83,13 @@ Please remember to remove the escape `\` characters from the liquid statement wh
 
 ## Stand Alone External Hyperlinks
 
-Inline hyperlinks with bracketed clickable text `[MMINAIL]` may be followed by the `site.url` simply enclosed in a single set of parenthesis `(...)`, as follows:
+Inline hyperlinks with bracketed clickable text `[MMINAIL]` may be followed by the `site.url` simply enclosed in a single set of parenthesis `(...)` followed by a target indicator, as follows:
 
 ```markdown
-[MMINAIL](https://mminail.github.io)
+[MMINAIL](https://mminail.github.io){:target="_blank"}
 ```
 
-**Live Example**: A stand alone, clickable text, external hyperlink ... [MMINAIL](https://mminail.github.io).
+**Live Example**: A stand alone, clickable text, external hyperlink ... [MMINAIL](https://mminail.github.io){:target="_blank"}.
 
 ## Auto External Hyperlinks
 
@@ -239,7 +239,7 @@ Text that you wish to be italicized go between ... *single asterisk*
 
 Text that you wish to look emboldened such as a **Note**. Prefix ... Go between a set of double asterisks `**`...`**`, as follows:
 
-**Double Asterisks**
+## Double Asterisks
 
 ## Inline Images
 
