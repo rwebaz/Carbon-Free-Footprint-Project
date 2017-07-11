@@ -3,7 +3,7 @@ title: Home Page
 layout: homepg
 navigation_weight: 1
 ---
-![Page Banner](../assets/img/ghp-git-hub-pages-medmjorg-carbon-free-footprint-project-flammarion-got-tree-final-banner-1200-x-230.svg)
+![Page Banner](assets/img/ghp-git-hub-pages-medmjorg-carbon-free-footprint-project-flammarion-got-tree-final-banner-1200-x-230.svg)
 
 # CFFP
 
