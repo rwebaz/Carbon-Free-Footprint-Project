@@ -10,3 +10,7 @@ A **Solar Power** analysis and blueprint designed to establish a **Carbon Free F
 ## Intellectual Property
 
 {% include venture-cffp.htm %}
+
+***
+
+**Source**: [Sungevity](https://medmj.us/SolarPowerYes){:target="_blank"}

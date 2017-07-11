@@ -275,4 +275,4 @@ Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Ar
 
 ***
 
-**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}
+**Source**: [BC Northern Lights Bloombox](http://www.bcnorthernlights.com/the-bloombox){:target="_blank"}
