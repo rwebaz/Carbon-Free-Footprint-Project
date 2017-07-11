@@ -7,17 +7,24 @@ navigation_weight: 1
 
 Welcome! This is the client-facing Home page for the **Carbon Free Footprint Project**, or **CFFP**.
 
-Every page in this Website has a content section rendered in **GitHub Flavored Markdown**.
+## Lesson Template
 
-This is the content section of the home page.
+### Issue
 
-Each page in the directory has a single hash `#`, or `h1` title followed by a series of double hash `##`, or `h2` subtitles.
+- State the issue of the problem in the form of a question
 
-## Introduction
+### Solution
 
-More to come ...
+- Expound the solution ...
 
-## Instructions
+### The Code
 
-More to come ...
+- Highlight the code ...
 
+### Summation
+
+- Delineate the steps ...
+
+### Live
+
+- Render the code live
