@@ -1,6 +1,6 @@
 ---
 title: Home Page
-layout: default
+layout: homepg
 navigation_weight: 1
 ---
 # CFFP
