@@ -123,8 +123,6 @@ That you can expect to generate in one (1) year's time using a 1 kilo **Watt** (
 
 ### Power Consumption Table
 
-***
-
 Rated Power Draw (W)|Quantity (Count)|Electrical Component|Power Draw (W)|Hours On (hr)|Usage per day (Watt-hours)|
 ---------|-----------|---------|-----------|---------|---------|
 400 (W)|1|HID Flowering Bulb|400 (W)|12.00 (hr)|4800 Watt-hours|
@@ -134,8 +132,6 @@ Rated Power Draw (W)|Quantity (Count)|Electrical Component|Power Draw (W)|Hours 
 24 (W)|1|CO2 Period Input Fan|24 (W)|12.00 (hr)|288 Watt-hours|
 18 (W)|1|Air Pump|18 (W)|24.00 (hr)|432 Watt-hours|
 04 (W)|1|Water Pump|04 (W)|12 min or 00.20 (hr)|0.80 Watt-hours|
-
-***
 
 ## Summation
 
