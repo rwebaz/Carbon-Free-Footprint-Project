@@ -7,8 +7,6 @@ navigation_weight: 3
 
 First, let's focus on the components of **Solar Electricity** and how **Solar Electricity** is measured.
 
-***
-
 ## The Electric Watt
 
 **Issue**. What is an Electric **Watt**?
@@ -18,8 +16,6 @@ First, let's focus on the components of **Solar Electricity** and how **Solar El
 A **Watt** (W), therefore, is simply a measure of the rate of electron **Power Flow** over an electric line.
 
 **Analysis**. To illustrate, a quantity of two (2) **Watts** would equal a **Power Flow** of two (2) joules per second traveling into the home over a power line originating from an array of Solar panels.
-
-***
 
 ## Photon Generators
 
@@ -33,8 +29,6 @@ How the are we to proceed?
 
 Continue ...
 
-***
-
 ## Electric kilo Watt
 
 **Issue**. What is an electric **kilo Watt (kW)**?
@@ -45,15 +39,11 @@ For example, one-thousand (1000) **Watts** of power, or **kilo Watt (kW)** equal
 
 Just as one-thousand (1000) grams of silver equals (1) kilo Gram.
 
-***
-
 ## Electric kilo Watt hour
 
 **Issue**. What is an electric **kilo Watt hour**?
 
 **Rule**. One (1) electric **kilo Watt hour** (kWh) = 1,000 **Watts** of electron **Power Flow** over the timeframe of one-hour at the **Power Flow** rate of 1000 joules per second.
-
-***
 
 ## On Grid: The Utility Company
 
@@ -64,8 +54,6 @@ Just as one-thousand (1000) grams of silver equals (1) kilo Gram.
 Arizona Power Supply (APS) and Salt River Project (SRP) are both regulated public utilities.
 
 Therefore, both generally charge a flat rate of $0.12 per **(kWh)** for residential customers in the State of Arizona.
-
-***
 
 ## Solar Panels
 
@@ -86,8 +74,6 @@ Namely, the same type of current that powers your electric toaster ... **Alterna
 In the process of conversion, however, the electron **Power Flow** diminishes somewhat due the amount of energy tapped by the **Micro-inverters (MI)**.
 
 What follows below is a **Territorial Solar Rating** based on that reduced ( and, now converted ) **Alternating Current (AC)** electron **Power Flow**.
-
-***
 
 ## Territorial Solar Rating
 
@@ -135,23 +121,19 @@ Rated Power Draw (W)|Quantity (Count)|Electrical Component|Power Draw (W)|Hours 
 
 ## Summation
 
+**Issue**. What is the daily cost to run power the dual chamber **BC Northern Lights Bloom Box** ...?
+
 ### Total Usage Per Day (Watt-hours)
 
 8923 Watt-hours
-
-***
 
 ### Total Usage Per Day (kWh)
 
 8.923 kilo Watt hours (kWh)
 
-***
-
 ### Cost Per kilo Watt hour
 
 12 cents
-
-***
 
 ### Daily Cost ( 8.923 x 12 cents )
 
