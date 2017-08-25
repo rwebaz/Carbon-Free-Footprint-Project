@@ -1,11 +1,11 @@
 ---
-title: Text Template
+title: The Flammarion
 layout: default
 navigation_weight: 9
 ---
-# Article Title ( From Front Matter Above )
+# The Flammarion
 
-Place the introducing line of text ie.) the 'tagline' here ...
+The **Flammarion** is an ancient portrait of a medieval man poking his head into the ether beyond ...
 
 ## Table O Contents
 
@@ -16,11 +16,11 @@ Place the introducing line of text ie.) the 'tagline' here ...
 - TOC
 {:toc}
 
-## The Flammarion
+## The Flammarion Defined
 
 {% include flammarion-text.htm %}
 
-![MMI™ Flammarion Logo Badge](../assets/img/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-725-x-725.svg){:height="500px" width="500px"}
+![MMI™ Flammarion Logo Badge](../assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg){:height="500px" width="500px"}
 
 ## Subtitle
 
@@ -52,4 +52,4 @@ Therefore, it is the policy of the **[MMINAIL][1]** to always provide a **Ping B
 
 ### External Sources
 
-- [Project Source Links](https://rwebaz.github.io/Medcoin-Currency-Project/pages/Source-Links.html){:target="_blank"). Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:target="_blank"}
+- [Project Source Links](https://rwebaz.github.io/Carbon-Free-Footprint-Project/pages/Source-Links.html){:title="Click to Visit the Project Source Link page of the CFFP"}{:target="_blank"). Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the current Home Page of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.

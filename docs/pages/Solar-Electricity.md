@@ -1,7 +1,7 @@
 ---
 title: Solar Electricity
 layout: default
-navigation_weight: 3
+navigation_weight: 9
 ---
 # Solar Electricity
 
@@ -249,7 +249,7 @@ Therefore, a 2 x 3 six (6) Solar panel array will weigh in at approx. 285 pounds
 
 **Analysis**. To configure the 4 x 8 array of Solar Panels shown in the example photo requires (32) panels at a cost of $275 each, or $8,800 USD.
 
-![8 x 4 Solar Panel Array With Dual Axis Tracking](../assets/img/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-w-blue-text-label-640-x-480-px.png)
+![8 x 4 Solar Panel Array With Dual Axis Tracking](../assets/img/png/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-w-blue-text-label-640-x-480-px.png)
 
 Plus, the cost of the Micro-Inverters (MI), the Dual Axis Tracking mechanism, the mount, and the pedestal.
 

@@ -1,18 +1,23 @@
 # Site settings
 #
+# Date of this Update to Config-template file ver 08-13-2017 PM
+#
 # github: [metadata]
 theme: "jekyll-theme-cayman"
 # repository: rwebaz/Carbon-Free-Footprint-Project
 title: "Carbon Free Footprint Project"
-tagline: "A Github repo of Solar Initiatives"
-description: "A Github repo of Solar Initiatives"
+tagline: "A GitHub repo of Solar Initiative Lessons and Articles that emphasize both the GFM and Kramdown engines"
+description: "A GitHub repo of Solar Initiative Lessons and Articles that emphasize both the GFM and Kramdown engines"
+twitter:
+    username: "mminail"
 author:
     name: "Robert Weber, Director"
     email: "mminail@icloud.com"
-    github_username: "mminail"
-    twitter_username: "mminail"
-# The 'baseurl' is the subpath of your website, e.g. /blog
+    github_username: "rwebaz"
+    twitter_username: "rwebaz"
+# The 'baseurl' is the subpath of your designated project, e.g. /Liquid-Lessons-Project
 baseurl: "/Carbon-Free-Footprint-Project"
+# The 'url' is the parental web address of your designated project, e.g. /https://rwebaz.github.io
 url: "https://rwebaz.github.io"
 exclude: ['README.md']
 markdown: "kramdown"
@@ -27,6 +32,16 @@ google_analytics: [UA-44765001-8]
 defaults:
   - scope:
       path: "assets/img"
+    values:
+      image: "true"
+defaults:
+  - scope:
+      path: "assets/img/png"
+    values:
+      image: "true"
+defaults:
+  - scope:
+      path: "assets/img/svg"
     values:
       image: "true"
 defaults:
@@ -54,11 +69,13 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "collection_CFFP"
+      type: "collection_LLP"
     values:
       layout: "page"
-gems:
+plugins_dir:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
