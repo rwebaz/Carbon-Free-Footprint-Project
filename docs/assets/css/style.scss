@@ -1,6 +1,7 @@
 ---
 
 ---
+/* Style template scss Dtd 12-31-17 */
 /* @import 'jekyll-theme-cayman'; */
 @import "{{ site.theme }}";
 
@@ -49,6 +50,10 @@ a[href^="http:"] {
 li.active a {
 	color: #DC143C; /* Crimson Red */
     
+}
+
+.red {
+    color: #DC143C; /* Crimson Red */
 }
 
 .btn {
@@ -113,3 +118,15 @@ nav.nav-primary li a {
     border-radius: 6px;
 }
 /* End Setting the Primary Nav*/
+
+/* Set the Table Row */
+.center {
+    text-align: center;
+}
+/* End Setting the Table Row */
+
+/* Set the Table Border */
+.groove-table {
+    border: 5px groove green;
+}
+/* End Setting the Table Border */
