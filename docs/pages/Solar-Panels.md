@@ -27,7 +27,7 @@ navigation_weight: 8
 
 ```html
 {% raw %}
-<h4>Vertical Definiton List</h4>
+<h4>Vertical Definition List</h4>
 <dl class="">
 <dt>Data Title</dt>
 <dd>Actual Data</dd>

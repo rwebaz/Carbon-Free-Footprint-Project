@@ -5,13 +5,13 @@ navigation_weight: 8
 ---
 # Sungevity Solar
 
-{{ site.tagline }}
+Time to buck-up for #Solar! Go Green and Earn your tax rebate today!
 
 {% include toc-flammarion.md %}
 
 ## FB Post: Sungevity Solar Wed Nov 9th, 2016
 
-Time to buck-up for #Solar!
+
 
 Go Green and Earn your tax rebate [today](https://medmj.us/SolarPowerYes){:title="Click to Visit the Home Page of Sungevity Solar"}{:target="_blank"}!
 

@@ -1,11 +1,11 @@
 ---
 title: Solar Electricity
 layout: default
-navigation_weight: 9
+navigation_weight: 8
 ---
 # Solar Electricity
 
-First, let's focus on the components of **Solar Electricity** and how **Solar Electricity** is measured.
+The components of **Solar Electricity** and how **Solar Electricity** is measured.
 
 ## The Electric Watt
 
