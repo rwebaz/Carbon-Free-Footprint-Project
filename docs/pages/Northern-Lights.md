@@ -1,11 +1,11 @@
 ---
-title: Venture CFFP
+title: Northern Lights
 layout: default
-navigation_weight: 9
+navigation_weight: 8
 ---
-# Venture CFFP
+# BC Northern Lights
 
-A **Solar Power** analysis and blueprint designed to establish a **Carbon Free Footprint** when operating a **BC Northern Lights Bloombox** full blast 24/7.
+The Venture CFFP is a **Solar Power** analysis and blueprint designed to establish a **Carbon Free Footprint** when operating a **BC Northern Lights Bloombox** full blast 24/7.
 
 ## Intellectual Property
 
