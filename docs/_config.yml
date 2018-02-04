@@ -1,6 +1,6 @@
 # Site settings
 # 
-# Date of this Update to Config-template file ver 01-01-2018
+# Date of this Update to Config-template file ver 02-01-2018
 #
 # Uncomment theme for docs folder
 theme: "jekyll-theme-cayman"
@@ -35,6 +35,7 @@ kramdown:
     math_engine: "mathjax"
 timezone: "America/Phoenix"
 google_analytics: [UA-44765001-8]
+# Settings For Default Keys: Use a scope/values pair
 defaults:
   - scope:
       path: "assets/img"
@@ -52,6 +53,11 @@ defaults:
       image: "true"
 defaults:
   - scope:
+      path: "assets/ico"
+    values:
+      image: "true"
+defaults:
+  - scope:
       path: "" 
       type: "pages"
     values:
@@ -65,14 +71,17 @@ defaults:
       layout: "default" 
       author: "Robert Weber, Director"
 collections:
-  collection_CFFP:
+  Gist_CFFP:
     output: "true"
 defaults:
   - scope:
-      path: ""
-      type: "collection_LLP"
+      path: "gists"
+      type: "pages"
     values:
-      layout: "page"
+      layout: "default" 
+      author: "Robert Weber, Director"
+      type: "gist"
+      category: "report"
 plugins_dir:
   - jekyll-feed
   - jekyll-seo-tag
