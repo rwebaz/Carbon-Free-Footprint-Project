@@ -7,6 +7,8 @@ navigation_weight: 8
 
 The components of **Solar Electricity** and how **Solar Electricity** is measured.
 
+{% include toc-flammarion.md %}
+
 ## The Electric Watt
 
 **Issue**. What is an Electric **Watt**?
@@ -273,6 +275,20 @@ Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Ar
 
 2000 (kW) of **Direct Current (DC)** **Power Flow** annually.
 
-***
+## Last Subtitle
 
-**Source**: [BC Northern Lights Bloombox](http://www.bcnorthernlights.com/the-bloombox){:target="_blank"}
+Place the introducing line of text ie.) the 'tagline' here ...
+
+```liquid
+{% raw %}
+Enjoy the successful output!
+{% endraw %}
+```
+
+{% include sources-and-uses.md %}
+
+- The [Bloombox](https://www.bcnorthernlights.com/the-bloombox){:title='Click to Visit the Landing page for The Bloombox at BC Northern Lights dot com'}{:target='_blank'} by BC Northern Lights. Published by © 2017 [Bcnorthernlights.com](https://www.bcnorthernlights.com/){:title='Click to Visit the Home page of BC Northern Lights dot com'}{:target='_blank'}.
+
+### External Sources
+
+- The [Project Source Links](https://mminail.github.io/CFFP/Source-Carbon-Free-Links.htm){:title='Click to Visit the Source Links page of the Carbon Free Footprint Project at GitHub pages'}{:target='_blank'} page of the Carbon Free Footprint Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concept Library at the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
