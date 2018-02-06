@@ -1,7 +1,7 @@
 ---
 
 ---
-/* Style template scss Dtd 02-03-18 */
+/* Style template scss Dtd 02-04-18 pm */
 /* @import 'jekyll-theme-cayman'; */
 @import "{{ site.theme }}";
 
@@ -107,16 +107,16 @@ li.active a {
 
 /* Set the collapsable Responsive Image */
 img {
-  /* min-width: 340px; */
-  /* max-width: 100%; */
-  height: auto;
-  border: 1px solid transparent;
-  /* border: 1px solid red; */
+    /* min-width: 340px; */
+    /* max-width: 100%; */
+    height: auto;
+    border: 1px solid transparent;
+    /* border: 1px solid red; */
 }
 
 .img-responsive {
-  width: calc(100% - 0px);
-  max-width: 100%;
+    width: calc(100% - 0px);
+    max-width: 100%;
 }
 
 .img-rounded {
@@ -126,7 +126,7 @@ img {
 
 /* Set the Primary Nav*/
 nav.nav-primary ul {
-  margin: 0;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 	/* float: right; */
@@ -134,25 +134,26 @@ nav.nav-primary ul {
 
 nav.nav-primary li,
 nav.nav-primary a {
-  display: inline-block;
+	display: inline-block;
 }
 
 nav.nav-primary li a {
-  text-align: center;
-  background-color:rgba(255, 255, 255, 0.7);
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.7);
 	padding: 1%;
-  border-radius: 6px;
+    border-radius: 6px;
 }
-/* End Setting the Primary Nav*/
+/* End Setting the Primary Nav */
 
 /* Set the Table Row */
 .center {
-  text-align: center;
+    text-align: center;
 }
 /* End Setting the Table Row */
 
 /* Set the Table Border */
 .groove-table {
-  border: 5px groove green;
+    border: 5px groove green;
 }
 /* End Setting the Table Border */
+   
