@@ -2,19 +2,21 @@
 title: Home Page
 layout: default
 excerpt: Shell tags and Shell statements mimic underlying Javascript methods ...
-version: Index Template md Dtd 02-05-18 pm
+version: Index Template md Dtd 02-06-18
 navigation_weight: 1
 categories: carbonfree
 ---
-![Page Banner]({{ "assets/img/svg/ghp-git-hub-pages-medmjorg-carbon-free-footprint-project-flammarion-got-tree-final-banner-1050-x-173.svg" | relative_url }}){:.img}{:.img-responsive}{:.img-rounded}
+{% include page-banner-carbon-free-footprint-project.md %}
 
 # Carbon Free Footprint Project Home Page
 
 {{ page.excerpt }}
 
-{% comment %}{{ page.version }}{% endcomment %}
-
 {% include toc.md %}
+
+## Photo Two
+
+More to come ...
 
 ## Image Filters
 
@@ -85,3 +87,5 @@ The path to the target page is ...
 ### External Sources
 
 - The [Project Source Links](https://mminail.github.io/CFFP/Source-Carbon-Free-Links.htm){:title="Click to Visit the Source Links page of the Carbon Free Footprint Project at GitHub pages"}{:target="_blank"} page of the Carbon Free Footprint Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+
+**Note**. This page crafted with {{ page.version }}.
