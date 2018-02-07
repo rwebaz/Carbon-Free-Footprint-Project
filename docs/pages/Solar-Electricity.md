@@ -1,16 +1,14 @@
 ---
 title: Solar Electricity
 layout: default
-excerpt: The components of Solar Electricity and how Solar Electricity is measured is complex ...
-version: Page Template md Dtd 02-05-18 pm
+excerpt: The components of Solar Electricity are complex. How Solar Electricity is measured is complex, too ...
+version: Page Template md Dtd 02-06-18
 navigation_weight: 8
 categories: carbonfree
 ---
 # {{ page.title }}
 
 {{ page.excerpt }}
-
-{% comment %}{{ page.version }}{% endcomment %}
 
 {% include toc.md %}
 
@@ -299,3 +297,5 @@ Enjoy the successful output!
 ### External Sources
 
 - The [Project Source Links](https://mminail.github.io/CFFP/Source-Carbon-Free-Links.htm){:title='Click to Visit the Source Links page of the Carbon Free Footprint Project at GitHub pages'}{:target='_blank'} page of the Carbon Free Footprint Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concept Library at the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
+
+**Note**. This page crafted with {{ page.version }}.

@@ -1,7 +1,7 @@
 ---
 title: Home Page
 layout: default
-excerpt: Shell tags and Shell statements mimic underlying Javascript methods ...
+excerpt: The Venture CFFP is a Solar Power analysis and blueprint designed to establish a Carbon Free Footprint when operating a BC Northern Lights Bloombox full blast 24/7 ...
 version: Index Template md Dtd 02-06-18
 navigation_weight: 1
 categories: carbonfree
