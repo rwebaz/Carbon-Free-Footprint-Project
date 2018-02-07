@@ -1,13 +1,18 @@
 ---
 title: Sungevity Solar
 layout: default
+excerpt: Time to buck-up for #Solar! Go Green and Earn your tax rebate today! ...
+version: Page Template md Dtd 02-05-18 pm
 navigation_weight: 8
+categories: carbonfree
 ---
-# Sungevity Solar
+# {{ page.title }}
 
-Time to buck-up for #Solar! Go Green and Earn your tax rebate today!
+{{ page.excerpt }}
 
-{% include toc-flammarion.md %}
+{% comment %}{{ page.version }}{% endcomment %}
+
+{% include toc.md %}
 
 ## FB Post: Sungevity Solar Wed Nov 9th, 2016
 
@@ -16,6 +21,8 @@ Go Green and Earn your tax rebate [today](https://medmj.us/SolarPowerYes){:title
 ## Last Subtitle
 
 Place the introducing line of text ie.) the 'tagline' here ...
+
+### Raw Code Block
 
 ```liquid
 {% raw %}

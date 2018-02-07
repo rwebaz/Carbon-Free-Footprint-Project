@@ -1,6 +1,6 @@
 # Site settings
 # 
-# Date of this Update to Config-template file ver 02-01-2018
+# Date of this Update to Config-template file ver 02-05-2018 pm
 #
 # Uncomment theme for docs folder
 theme: "jekyll-theme-cayman"
@@ -12,6 +12,7 @@ theme: "jekyll-theme-cayman"
 # repository: https://www.github.com/rwebaz/Carbon-Free-Footprint-Project
 #
 title: "Carbon Free Footprint Project"
+lang: "en-US"
 tagline: "A GitHub repo of Lessons and Articles that emphasize modern Solar Energy initiatives"
 description: "The Carbon Free Footprint Project, or CFFP is a GitHub repo of Lessons and Articles emphasizing modern Solar Energy initiatives."
 twitter:
@@ -53,7 +54,7 @@ defaults:
       image: "true"
 defaults:
   - scope:
-      path: "assets/ico"
+      path: "assets/img/ico"
     values:
       image: "true"
 defaults:
@@ -61,27 +62,23 @@ defaults:
       path: "" 
       type: "pages"
     values:
-      layout: "default"
-      author: "Robert Weber, Director"
+      category: "carbonfree"
 defaults:
   - scope:
       path: "pages"
       type: "pages"
     values:
-      layout: "default" 
-      author: "Robert Weber, Director"
+      category: "carbonfree"
+excerpt_separator: <!-- this is a literal excerpt separator -->
 collections:
-  Gist_CFFP:
+  gists:
     output: "true"
 defaults:
   - scope:
-      path: "gists"
+      path: "_gists"
       type: "pages"
     values:
-      layout: "default" 
-      author: "Robert Weber, Director"
-      type: "gist"
-      category: "report"
+      category: "carbonfree"
 plugins_dir:
   - jekyll-feed
   - jekyll-seo-tag

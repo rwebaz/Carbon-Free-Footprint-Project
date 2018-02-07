@@ -1,13 +1,18 @@
 ---
 title: Solar Power
 layout: default
+excerpt: Place the introducing line of text ie.) the 'lead' here ...
+version: Page Template md Dtd 02-05-18 pm
 navigation_weight: 8
+categories: carbonfree
 ---
-# Solar Power
+# {{ page.title }}
 
-{{ site.tagline }}
+{{ page.excerpt }}
 
-{% include toc-flammarion.md %}
+{% comment %}{{ page.version }}{% endcomment %}
+
+{% include toc.md %}
 
 ## Time Management
 
@@ -56,6 +61,8 @@ Enjoy the successful output!
 ## Last Subtitle
 
 Place the introducing line of text ie.) the 'tagline' here ...
+
+### Raw Code Block
 
 ```liquid
 {% raw %}
