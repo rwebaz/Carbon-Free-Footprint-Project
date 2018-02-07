@@ -2,15 +2,13 @@
 title: Solar Panels
 layout: default
 excerpt: Place the introducing line of text ie.) the 'lead' here ...
-version: Page Template md Dtd 02-05-18 pm
+version: Page Template md Dtd 02-06-18 pm
 navigation_weight: 8
 categories: carbonfree
 ---
 # {{ page.title }}
 
 {{ page.excerpt }}
-
-{% comment %}{{ page.version }}{% endcomment %}
 
 {% include toc.md %}
 
@@ -114,3 +112,5 @@ Enjoy the successful output!
 ### External Sources
 
 - The [Project Source Links](https://mminail.github.io/CFFP/Source-Carbon-Free-Links.htm){:title="Click to Visit the Source Links page of the Carbon Free Footprint Project at GitHub pages"}{:target="_blank"} page of the Carbon Free Footprint Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+
+**Note**. This page crafted with {{ page.version }}.
