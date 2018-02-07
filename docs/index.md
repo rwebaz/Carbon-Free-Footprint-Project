@@ -70,7 +70,7 @@ The path to the target page is ...
 
 {% for gist in site.gists %}
 
-- [{{ gist.title }}]({{ site.url }}{{ site.baseurl }}{% link _gists/name-of-gist.md %}){:title="Click to Visit the {{ gist.title }} page of the Carbon Free Footprint Project at the Concept Library of the MMINAIL"}{:target="_blank"}
+- [{{ gist.title }}]({{ site.url }}{{ site.baseurl }}{% link _gists/First-Gist.md %}){:title="Click to Visit the {{ gist.title }} page of the Carbon Free Footprint Project at the Concept Library of the MMINAIL"}{:target="_blank"}
 
 {% endfor %}
 
