@@ -1,13 +1,18 @@
 ---
 title: Solar Electricity
 layout: default
+excerpt: The components of Solar Electricity and how Solar Electricity is measured is complex ...
+version: Page Template md Dtd 02-05-18 pm
 navigation_weight: 8
+categories: carbonfree
 ---
-# Solar Electricity
+# {{ page.title }}
 
-The components of **Solar Electricity** and how **Solar Electricity** is measured.
+{{ page.excerpt }}
 
-{% include toc-flammarion.md %}
+{% comment %}{{ page.version }}{% endcomment %}
+
+{% include toc.md %}
 
 ## The Electric Watt
 
@@ -101,11 +106,11 @@ That you can expect to generate in one (1) year's time using a 1 kilo **Watt** (
 
 ***
 
-## BC Northern Lights Bloom Box
+## BC Northern Lights Bloombox
 
 ***
 
-**Issue**. What is the power consumption of a dual chamber **BC Northern Lights Bloom Box** ...?
+**Issue**. What is the power consumption of a dual chamber BC Northern Lights Bloombox [[2](#BLOOMBOX){:.red}] ?
 
 ***
 
@@ -265,7 +270,7 @@ Requires the purchase of ( 2.10 x 2000 ) or, the size of the required system mul
 
 kilo Watts (kW) ) / divided by the rating in **Watts** (W) of the solar panel, or 350.
 
-4200 / 350 = 12 Solar panels rated at 350w with a 17% efficency rating are required ...
+4200 / 350 = 12 Solar panels rated at 350w with a 17% efficiency rating are required ...
 
 To configure the 3 x 4 array of Solar Panels shown in this (12) panel example at a cost of $275 each, or $3,300 USD.
 
@@ -279,6 +284,8 @@ Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Ar
 
 Place the introducing line of text ie.) the 'tagline' here ...
 
+### Raw Code Block
+
 ```liquid
 {% raw %}
 Enjoy the successful output!
@@ -287,7 +294,7 @@ Enjoy the successful output!
 
 {% include sources-and-uses.md %}
 
-- The [Bloombox](https://www.bcnorthernlights.com/the-bloombox){:title='Click to Visit the Landing page for The Bloombox at BC Northern Lights dot com'}{:target='_blank'} by BC Northern Lights. Published by © 2017 [Bcnorthernlights.com](https://www.bcnorthernlights.com/){:title='Click to Visit the Home page of BC Northern Lights dot com'}{:target='_blank'}.
+1. {:#BLOOMBOX}The [Bloombox](https://www.bcnorthernlights.com/the-bloombox){:title='Click to Visit the Landing page for The Bloombox at BC Northern Lights dot com'}{:target='_blank'} by BC Northern Lights. Published by © 2017 [Bcnorthernlights.com](https://www.bcnorthernlights.com/){:title='Click to Visit the Home page of BC Northern Lights dot com'}{:target='_blank'}.
 
 ### External Sources
 

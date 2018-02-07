@@ -1,21 +1,20 @@
 ---
 title: Home Page
 layout: default
+excerpt: Shell tags and Shell statements mimic underlying Javascript methods ...
+version: Index Template md Dtd 02-05-18 pm
 navigation_weight: 1
+categories: carbonfree
 ---
 ![Page Banner]({{ "assets/img/svg/ghp-git-hub-pages-medmjorg-carbon-free-footprint-project-flammarion-got-tree-final-banner-1050-x-173.svg" | relative_url }}){:.img}{:.img-responsive}{:.img-rounded}
 
 # Carbon Free Footprint Project Home Page
 
-{{ site.description }}
+{{ page.excerpt }}
 
-## Table O Contents
+{% comment %}{{ page.version }}{% endcomment %}
 
-![MMI™ Flammarion Logo Badge](assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg){:width="120px"}
-
-{% include toc-flammarion.md %}
-
-**Note**. The above **Live** rendition of the **MMI™ Flammarion Logo Badge** ( if visible ) is an `( .svg )` image file set to the dimensions of 120.00 px X 120.00 px.
+{% include toc.md %}
 
 ## Image Filters
 
@@ -27,7 +26,7 @@ However, prepending the `path` and `file name` of an image with both the `site.u
 
 An analysis designed to establish a **Carbon Free Footprint** when operating a BC Northern Lights Bloombox 'Full Blast' 24/7.
 
-## Issue Dtd 12-31-17
+## Issue
 
 The **Issue** of a successful legal argument is prefaced by a concise, to the point coin flip.
 

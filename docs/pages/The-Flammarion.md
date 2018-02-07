@@ -1,13 +1,18 @@
 ---
 title: The Flammarion
 layout: default
+excerpt: The Flammarion is an ancient portrait of a medieval man poking his head into the ether ...
+version: Flammarion Page Template md Dtd 02-05-18 pm
 navigation_weight: 9
+categories: template
 ---
 # The Flammarion
 
-The Flammarion is an ancient portrait of a medieval man poking his head into the ether.
+{{ page.excerpt }}
 
-{% include toc-flammarion.md %}
+{% comment %}{{ page.version }}{% endcomment %}
+
+{% include toc.md %}
 
 {% include flammarion-svg.md %}
 

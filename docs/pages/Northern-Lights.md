@@ -1,13 +1,22 @@
 ---
 title: Northern Lights
 layout: default
+excerpt: Place the introducing line of text ie.) the 'lead' here ...
+version: Page Template md Dtd 02-05-18 pm
+categories: carbonfree
 navigation_weight: 8
 ---
-# Northern Lights
+# {{ page.title }}
+
+{{ page.excerpt }}
+
+{% comment %}{{ page.version }}{% endcomment %}
+
+{% include toc.md %}
+
+## First Subtitle
 
 The Venture CFFP is a **Solar Power** analysis and blueprint designed to establish a **Carbon Free Footprint** when operating a **BC Northern Lights Bloombox** full blast 24/7.
-
-{% include toc-flammarion.md %}
 
 ## Intellectual Property
 

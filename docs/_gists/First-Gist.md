@@ -1,12 +1,18 @@
 ---
-title: First-Gist
+title: First Gist
+layout: default
+excerpt: Place the introducing line of text ie.) the 'lead' here ...
+version: Page Template md Dtd 02-05-18 pm
 navigation_weight: 8
+categories: report
 ---
-# First Gist
+# {{ page.title }}
 
-{{ site.description }}
+{{ page.excerpt }}
 
-{% include toc-flammarion.md %}
+{% comment %}{{ page.version }}{% endcomment %}
+
+{% include toc.md %}
 
 ## First Subtitle
 
@@ -31,6 +37,8 @@ And, the internal hyperlink path to the target page is:
 ## Last Subtitle
 
 Place the introducing line of text ie.) the 'tagline' here ...
+
+### Raw Code Block
 
 ```liquid
 {% raw %}
