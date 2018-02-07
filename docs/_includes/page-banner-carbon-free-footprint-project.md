@@ -1,0 +1,1 @@
+![Carbon Free Footprint Project Page Banner]({{ "assets/img/svg/ghp-git-hub-pages-medmjorg-carbon-free-footprint-project-flammarion-got-tree-final-banner-1050-x-173.svg" | relative_url }}){:.img}{:.img-responsive}{:.img-rounded}
