@@ -2,17 +2,17 @@
 title: Northern Lights
 layout: default
 excerpt: Place the introducing line of text ie.) the 'lead' here ...
-version: Page Template md Dtd 02-06-18
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Carbon-Free-Footprint-Project
+ver_date: 11-26-19
 navigation_weight: 8
-categories: carbonfree
+categories: page
 ---
-# {{ page.title }}
-
-{{ page.excerpt }}
-
 {% include toc.md %}
 
 ## Acquisition
+
+> **Hint**. {{ page.hint }}
 
 The BC Northern Lights Company of British Columbia, Canada was recently merged with Aurora Cannabis, Inc. in a purchase transaction Dtd September #2017 as reported by [Bloomberg](https://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapId=539316036){:title='Click to Visit the Landing page for the BC Northern Lights - Aurora Cannabis merger'}{:target='_blank'}.
 
@@ -20,24 +20,38 @@ The BC Northern Lights Company of British Columbia, Canada was recently merged w
 
 {% include venture-cffp.htm %}
 
+## Image Filters
+
+Prepending the `path` and `file name` of an image with simply the `site.baseurl` in liquid can be achieved with the `relative_url` filter.
+
+However, prepending the `path` and `file name` of an image with both the `site.url` and `site.baseurl` in liquid can be achieved only with the `absolute_url` filter.
+
+## BC Northern Lights
+
+An analysis designed to establish a **Carbon Free Footprint** when operating a BC Northern Lights Bloombox 'Full Blast' 24/7.
+
+### Gist Links
+
+The path to this page is ... `{{ page.path }}`
+
+The path to the target page is ...
+
+{% for gist in site.gists %}
+
+- [{{ gist.title }}]({{ site.url }}{{ site.baseurl }}{% link _gists/First-Gist.md %}){:title="Click to Visit the {{ gist.title }} page of the Carbon Free Footprint Project at the Concept Library of the MMINAIL"}{:target="_blank"}
+
+{% endfor %}
+
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-### Raw Code Block
+***
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+**Note**. The above synopsis was derived from an article written by Sungevity [[1](#SUNGEVITY){:.red}].
 
-{% include sources-and-uses.md %}
+1. {:#SUNGEVITY}[Sungevity](https://www.sungevity.com/get-your-iquote){:title='Click to Visit the Landing page for the Sungevity Solar Powered Promotion'}{:target='_blank'}.
 
-### External Sources
+***
 
-- The [Project Source Links](https://mminail.github.io/CFFP/Source-Carbon-Free-Links.htm){:title="Click to Visit the Source Links page of the Carbon Free Footprint Project at GitHub pages"}{:target="_blank"} page of the Carbon Free Footprint Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
-
-- The [Sungevity](https://medmj.us/SolarPowerYes){:title='Click to Visit the Landing page for the Sungevity Solar Powered Promotion'}{:target='_blank'} Solar Powered Promotion.
-
-**Note**. This page crafted with {{ page.version }}.
+{% include patreon-link.md %}

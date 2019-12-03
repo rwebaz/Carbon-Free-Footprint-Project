@@ -2,17 +2,19 @@
 title: Solar Electricity
 layout: default
 excerpt: The components of Solar Electricity are complex. How Solar Electricity is measured is complex, too ...
-version: Page Template md Dtd 02-06-18
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Carbon-Free-Footprint-Project
+ver_date: 11-26-19
 navigation_weight: 8
-categories: carbonfree
+categories: page
 ---
-# {{ page.title }}
-
-{{ page.excerpt }}
-
 {% include toc.md %}
 
 ## The Electric Watt
+
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 **Issue**. What is an Electric **Watt**?
 
@@ -108,7 +110,7 @@ That you can expect to generate in one (1) year's time using a 1 kilo **Watt** (
 
 ***
 
-**Issue**. What is the power consumption of a dual chamber BC Northern Lights Bloombox [[2](#BLOOMBOX){:.red}] ?
+**Issue**. What is the power consumption of a dual chamber BC Northern Lights Bloombox [[1](#BCNORTHERNLIGHTS){:.red}] ?
 
 ***
 
@@ -280,22 +282,14 @@ Similarly, throughout the entire year a 1 (kW) rated System of Solar panels ( Ar
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-### Raw Code Block
+***
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+**Note**. The above synopsis was derived from an article written by BC Northern Lights [[1](#BCNORTHERNLIGHTS){:.red}].
 
-{% include sources-and-uses.md %}
+1. {:#BCNORTHERNLIGHTS}The [Bloombox](https://www.bcnorthernlights.com/the-bloombox){:title='Click to Visit the Landing page for The Bloombox at BC Northern Lights dot com'}{:target='_blank'} by BC Northern Lights. Published by © 2017 [Bcnorthernlights.com](https://www.bcnorthernlights.com/){:title='Click to Visit the Home page of BC Northern Lights dot com'}{:target='_blank'}.
 
-1. {:#BLOOMBOX}The [Bloombox](https://www.bcnorthernlights.com/the-bloombox){:title='Click to Visit the Landing page for The Bloombox at BC Northern Lights dot com'}{:target='_blank'} by BC Northern Lights. Published by © 2017 [Bcnorthernlights.com](https://www.bcnorthernlights.com/){:title='Click to Visit the Home page of BC Northern Lights dot com'}{:target='_blank'}.
+***
 
-### External Sources
-
-- The [Project Source Links](https://mminail.github.io/CFFP/Source-Carbon-Free-Links.htm){:title='Click to Visit the Source Links page of the Carbon Free Footprint Project at GitHub pages'}{:target='_blank'} page of the Carbon Free Footprint Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title='Click to Visit the Home Page of the Concept Library at the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation'}{:target='_blank'}.
-
-**Note**. This page crafted with {{ page.version }}.
+{% include patreon-link.md %}
